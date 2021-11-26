@@ -15,7 +15,8 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public List<EnemyMove> allMoves = new();
 
     [HideInInspector] public int type;
-    [HideInInspector] public float range;
+    [HideInInspector] public float AlertRange;
+    [HideInInspector] public float AttackRange;
 
 
     // Start is called before the first frame update
@@ -32,8 +33,9 @@ public class Enemy : MonoBehaviour
 
         // Set random enemy type
         type = Random.Range(0, 2);
-        if (type == 0) { range = 0.5f; }
-        else if (type == 1) { range = 3f; }
+        if (type == 0) { AttackRange = 0.5f; }
+        else if (type == 1) { AttackRange = 3f; }
+        AlertRange = AttackRange + 5f;
     }
 
     // Update is called once per frame

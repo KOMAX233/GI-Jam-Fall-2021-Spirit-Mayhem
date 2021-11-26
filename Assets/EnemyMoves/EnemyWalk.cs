@@ -8,7 +8,8 @@ public class EnemyWalk : EnemyMove
     public float distance;
 
     private int type;
-    public float range;
+    public float AttackRange;
+    public float AlertRange;
     private GameObject player;
 
     // Start is called before the first frame update
@@ -16,8 +17,9 @@ public class EnemyWalk : EnemyMove
     {
         // Sets the enemy type
         type = enemy.type;
-        // Initialize range
-        range = enemy.range;
+        // Initialize ranges
+        AttackRange = enemy.AttackRange;
+        AlertRange = enemy.AlertRange;
         distance = 0f;
     }
 
@@ -26,14 +28,15 @@ public class EnemyWalk : EnemyMove
     {
         if (!IsActive) return;
         distance = Vector2.Distance(enemy.MyTransform.position, enemy.PlayerTransform.position);
-        if (distance > range)
+        if (distance > AttackRange && distance <= AlertRange)
         {
             enemy.MyTransform.position = Vector2.MoveTowards(enemy.MyTransform.position, enemy.PlayerTransform.position, speed * Time.deltaTime);
         }
     }
     private void Update()
     {
-        if (range == 0) { range = enemy.range; }
+        if (AttackRange == 0) { AttackRange = enemy.AttackRange; }
+        if (AlertRange == 0) { AlertRange = enemy.AlertRange; }
         if (enemy.allMoves.Exists(m => m != this && m.IsActive))
         {
             EndMove();
