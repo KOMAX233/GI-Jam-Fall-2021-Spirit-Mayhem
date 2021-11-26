@@ -5,28 +5,28 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10;
     public float smoothing = 0.5f;
 
-    private Rigidbody myRigidbody;
+    private Rigidbody2D myRigidbody;
 
     private void Start()
     {
-        myRigidbody = GetComponent<Rigidbody>();
+        myRigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
-        var moveDirection = Vector3.zero;
+        var moveDirection = Vector2.zero;
         if (Input.GetKey(KeyCode.W))
-            moveDirection += Vector3.forward;
+            moveDirection += Vector2.up;
         if (Input.GetKey(KeyCode.A))
-            moveDirection += Vector3.left;
+            moveDirection += Vector2.left;
         if (Input.GetKey(KeyCode.S))
-            moveDirection += Vector3.back;
+            moveDirection += Vector2.down;
         if (Input.GetKey(KeyCode.D))
-            moveDirection += Vector3.right;
+            moveDirection += Vector2.right;
         if (moveDirection.sqrMagnitude > 1)
             moveDirection = moveDirection.normalized;
 
-        var goalVelocity = moveDirection * speed + myRigidbody.velocity.y * Vector3.up;
-        myRigidbody.velocity = Vector3.Lerp(goalVelocity, myRigidbody.velocity, smoothing);
+        var goalVelocity = moveDirection * speed;
+        myRigidbody.velocity = Vector2.Lerp(goalVelocity, myRigidbody.velocity, smoothing);
     }
 }
