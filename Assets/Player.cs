@@ -8,7 +8,10 @@ public class Player : MonoBehaviour
     public Camera MyCamera { get; private set; }
     public Vector2 MoveDirection { get; private set; }
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
-
+    public GameObject Spirit1;
+    public GameObject Spirit2;
+    public List<Vector2> PositionList;
+    public int distance = 20;
     [HideInInspector] public List<Move> allMoves = new();
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -35,6 +38,14 @@ public class Player : MonoBehaviour
         {
             MoveDirection = MoveDirection.normalized;
             LastNonzeroMoveDirection = MoveDirection;
+        }
+
+        // spirit following
+        PositionList.Add(transform.position);
+        if (PositionList.Count > distance) {
+            PositionList.RemoveAt(0);
+            Spirit1.transform.position = PositionList[0] + new Vector2(1,0);
+            Spirit2.transform.position = PositionList[0] + new Vector2(-1,0);
         }
     }
 }
