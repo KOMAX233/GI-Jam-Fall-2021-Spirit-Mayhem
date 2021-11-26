@@ -44,7 +44,17 @@ public class SlashMove : Move
         if (IsActive)
         {
             if (Time.time > LastStartTime + CurrentPart.windup)
-                CurrentPart.slashCollider.gameObject.SetActive(true);
+            {
+                if (!CurrentPart.slashCollider.gameObject.activeSelf)
+                {
+                    CurrentPart.slashCollider.gameObject.SetActive(true);
+                    foreach (var ps in CurrentPart.slashCollider.gameObject.GetComponentsInChildren<ParticleSystem>())
+                    {
+                        ps.Play();
+                    }
+                }
+            }
+
             if (Time.time > LastStartTime + CurrentPart.windup + CurrentPart.hitDuration)
                 EndMove();
         }
