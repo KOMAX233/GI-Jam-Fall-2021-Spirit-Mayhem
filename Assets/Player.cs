@@ -4,6 +4,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public Rigidbody2D MyRigidbody { get; private set; }
+    public Health MyHealth { get; private set; }
     public Camera MyCamera { get; private set; }
     public Vector2 MoveDirection { get; private set; }
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         MyRigidbody = GetComponent<Rigidbody2D>();
+        MyHealth = GetComponent<Health>();
         MyCamera = GetComponentInChildren<Camera>();
     }
 

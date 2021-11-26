@@ -7,6 +7,7 @@ public class SlashMove : Move
     public struct ComboPart
     {
         public CollisionTracker slashCollider;
+        public float damage;
         public float windup;
         public float hitDuration;
         public float nextComboDuration;
@@ -23,10 +24,10 @@ public class SlashMove : Move
         if (!IsActive) return;
         foreach (var other in CurrentPart.slashCollider.triggerStay)
         {
-            var breakable = other.GetComponentInParent<Breakable>();
-            if (breakable != null)
+            var health = other.GetComponentInParent<Health>();
+            if (health != null && health != player.MyHealth)
             {
-                Destroy(breakable.gameObject);
+                health.Damage(CurrentPart.damage);
             }
         }
 
