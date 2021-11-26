@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
         MyRigidbody = GetComponent<Rigidbody2D>();
         MyHealth = GetComponent<Health>();
         MyCamera = GetComponentInChildren<Camera>();
+        Spirit1.GetComponent<Renderer>().material.color = randColor();
+        Spirit2.GetComponent<Renderer>().material.color = randColor();
     }
 
     private void Update()
@@ -47,5 +49,10 @@ public class Player : MonoBehaviour
             Spirit1.transform.position = PositionList[0] + new Vector2(1,0);
             Spirit2.transform.position = PositionList[0] + new Vector2(-1,0);
         }
+    }
+
+    private Color randColor() {
+        Color genColor = new Color(Random.Range(0,255)/255f, Random.Range(0,255)/255f, Random.Range(0,255)/255f);
+        return genColor;
     }
 }
