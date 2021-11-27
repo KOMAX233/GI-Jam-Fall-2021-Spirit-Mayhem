@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public List<Vector2> PositionList;
     public int distance = 20;
     public Vector3 range;
+    public Animator animator;
     [HideInInspector] public List<Move> allMoves = new();
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -45,7 +46,9 @@ public class Player : MonoBehaviour
             MoveDirection = MoveDirection.normalized;
             LastNonzeroMoveDirection = MoveDirection;
         }
-
+        animator.SetFloat("horizontal", MoveDirection.x);
+        animator.SetFloat("vertical", MoveDirection.y);
+        animator.SetFloat("speed", MoveDirection.sqrMagnitude);
     }
 
     private Color randColor() {
