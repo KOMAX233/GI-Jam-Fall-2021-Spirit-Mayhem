@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public Rigidbody2D MyRigidbody;
     [HideInInspector] public Transform MyTransform;
     public Health MyHealth;
-
+    public Animator animator;
 
     [HideInInspector] public GameObject player;
     [HideInInspector] public Transform PlayerTransform;
@@ -40,11 +40,15 @@ public class Enemy : MonoBehaviour
         AlertRange = AttackRange + 5f;
 
         distanceToPlayer = 0f;
+        animator.SetBool("dead", false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (MyHealth.currentHealth <= 0) {
+            animator.SetBool("dead", true);
+        }
         distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerTransform.position);
     }
 }
