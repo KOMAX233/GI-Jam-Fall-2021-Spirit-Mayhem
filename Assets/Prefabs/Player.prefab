@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6785048257442566469}
   - component: {fileID: 6785048257442566471}
   - component: {fileID: 6785048257442566470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Movement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 6785048257469949509}
   - component: {fileID: 6785048257469949508}
   - component: {fileID: 6785048257469949507}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Slash 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 6785048257806886398}
   - component: {fileID: 6785048257806886384}
   - component: {fileID: 6785048257806886399}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Slash 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 6785048258523793486}
   - component: {fileID: 6785048258523793472}
   - component: {fileID: 6785048258523793487}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5127,7 +5127,7 @@ GameObject:
   - component: {fileID: 6785048258744818071}
   - component: {fileID: 6785048258744818089}
   - component: {fileID: 6785048258744818088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9999,7 +9999,7 @@ GameObject:
   - component: {fileID: 6785048258789890013}
   - component: {fileID: 6785048258789890001}
   - component: {fileID: 3355877008863064663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -10022,6 +10022,7 @@ Transform:
   - {fileID: 6785048259154328392}
   - {fileID: 6785048257442566469}
   - {fileID: 6785048259365919657}
+  - {fileID: 1242752595681104753}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10103,7 +10104,7 @@ GameObject:
   - component: {fileID: 6785048259117012889}
   - component: {fileID: 6785048259117012891}
   - component: {fileID: 6785048259117012890}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14973,7 +14974,7 @@ GameObject:
   - component: {fileID: 6785048259154328392}
   - component: {fileID: 6785048259154328503}
   - component: {fileID: 6785048259154328501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -15058,7 +15059,7 @@ GameObject:
   - component: {fileID: 6785048259310681633}
   - component: {fileID: 6785048259310681632}
   - component: {fileID: 6785048259310681634}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Slash 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15172,7 +15173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6785048259351987707}
   - component: {fileID: 6785048259351987708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15256,8 +15257,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6785048259365919657}
   - component: {fileID: 6785048259365919658}
-  m_Layer: 0
-  m_Name: Attack
+  m_Layer: 9
+  m_Name: Melee Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15322,7 +15323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6785048259430490949}
   - component: {fileID: 6785048259430490950}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: spear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15406,7 +15407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6785048259546993821}
   - component: {fileID: 6785048259546993822}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15480,3 +15481,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &8400035202271574211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1242752595681104753}
+  - component: {fileID: 4932960633915703836}
+  m_Layer: 9
+  m_Name: Ranged Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242752595681104753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8400035202271574211}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6785048258789890000}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4932960633915703836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8400035202271574211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d8e78b03924849890938705435d4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 6785048258789890001}
+  cooldown: 0.3
+  projectilePrefab: {fileID: 3424777524327093225, guid: e393a614904559744a3d21b566f50dc1, type: 3}
+  speed: 20
+  windup: 0.1
