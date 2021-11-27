@@ -12,11 +12,12 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public GameObject player;
     [HideInInspector] public Transform PlayerTransform;
 
-    [HideInInspector] public List<EnemyMove> allMoves = new();
+    public List<EnemyMove> allMoves = new();
 
     [HideInInspector] public int type;
     [HideInInspector] public float AlertRange;
     [HideInInspector] public float AttackRange;
+    [HideInInspector] public float distanceToPlayer;
 
 
     // Start is called before the first frame update
@@ -32,15 +33,18 @@ public class Enemy : MonoBehaviour
         PlayerTransform = player.GetComponent<Transform>();
 
         // Set random enemy type
-        type = Random.Range(0, 2);
+        //type = Random.Range(0, 3);
+        type = 0;
         if (type == 0) { AttackRange = 0.5f; }
         else if (type == 1) { AttackRange = 3f; }
         AlertRange = AttackRange + 5f;
+
+        distanceToPlayer = 0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-    
+        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerTransform.position);
     }
 }

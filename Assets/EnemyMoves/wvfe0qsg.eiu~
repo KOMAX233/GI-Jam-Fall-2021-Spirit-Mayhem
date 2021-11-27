@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyAttack : EnemyMove
+{
+    public List<EnemyMove> AttackTypes = new();
+    public EnemyMove MeleeAttack;
+    public EnemyMove RangedAttack;
+
+    void Start()
+    {
+        if (enemy.type == 0) { AttackTypes.Add(MeleeAttack); }
+        if (enemy.type == 2) { AttackTypes.Add(RangedAttack); }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
