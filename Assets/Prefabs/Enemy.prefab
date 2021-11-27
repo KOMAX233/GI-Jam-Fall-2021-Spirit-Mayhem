@@ -111,8 +111,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4030449079817780715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.226, y: 0.018, z: 0}
-  m_LocalScale: {x: 0.24085037, y: 0.25431666, z: 0.5}
+  m_LocalPosition: {x: 0.7232, y: -0.0112, z: 0}
+  m_LocalScale: {x: 0.36734366, y: 0.5015669, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4171471267301247322}
@@ -184,8 +184,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.25995654, y: 0}
-  m_Size: {x: 0.5783502, y: 2}
+  m_Offset: {x: -0.119094044, y: 0}
+  m_Size: {x: 0.8600753, y: 2}
   m_Direction: 0
 --- !u!114 &7961667448671485478
 MonoBehaviour:
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 4905064111150620170}
   cooldown: 0
-  speed: 1
+  speed: 3
   AttackRange: 0
   AlertRange: 0
 --- !u!1 &4147452073543521219
@@ -5252,7 +5252,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10000
   m_LinearDrag: 10
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -5325,7 +5325,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.17198476
+  m_Radius: 1
 --- !u!212 &2316087838438892931
 SpriteRenderer:
   m_ObjectHideFlags: 0
