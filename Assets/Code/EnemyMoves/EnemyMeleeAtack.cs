@@ -24,11 +24,14 @@ public class EnemyMeleeAtack : EnemyMove
         if (!IsActive) return;
         foreach (var other in swipeCollider.triggerStay)
         {
-            var health = other.GetComponentInParent<Health>();
-            if (health != null && other.name == "Player" && atk)
+            if (other != null)
             {
-                health.Damage(damage);
-                atk = false;
+                var health = other.GetComponentInParent<Health>();
+                if (health != null && other.name == "Player" && atk)
+                {
+                    health.Damage(damage);
+                    atk = false;
+                }
             }
         }
     }
