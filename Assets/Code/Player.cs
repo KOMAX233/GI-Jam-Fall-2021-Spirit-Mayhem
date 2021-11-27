@@ -27,8 +27,6 @@ public class Player : MonoBehaviour
             Spirits[i].GetComponent<Renderer>().material.color = randColor();
             range = transform.position - Spirits[i].transform.position;
         }
-
-
     }
 
     private void Update()
@@ -47,23 +45,19 @@ public class Player : MonoBehaviour
             MoveDirection = MoveDirection.normalized;
             LastNonzeroMoveDirection = MoveDirection;
         }
-        animator.SetFloat("horizontal", MoveDirection.x);
-        animator.SetFloat("vertical", MoveDirection.y);
-        animator.SetFloat("speed", MoveDirection.sqrMagnitude);
-        if (Input.GetMouseButtonDown(0))
-        {
-            animator.SetBool("attack", true);
-        }
-        else
-        {
-            animator.SetBool("attack", false);
-        }
+
+        animator.SetFloat("horizontal", LastNonzeroMoveDirection.x);
+        animator.SetFloat("vertical", LastNonzeroMoveDirection.y);
+        animator.SetFloat("speed", LastNonzeroMoveDirection.sqrMagnitude);
+        animator.SetBool("attack", Input.GetMouseButtonDown(0));
     }
 
     private Color randColor()
     {
-        Color genColor = new Color(Random.Range(0, 255) / 255f, Random.Range(0, 255) / 255f, Random.Range(0, 255) / 255f);
-        return genColor;
+        return new Color(
+            Random.Range(0, 255) / 255f,
+            Random.Range(0, 255) / 255f,
+            Random.Range(0, 255) / 255f);
     }
 
     private void LateUpdate()
