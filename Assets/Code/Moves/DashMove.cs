@@ -9,8 +9,8 @@ public class DashMove : Move
     private void FixedUpdate()
     {
         if (!IsActive) return;
-        var goalVelocity = player.LastNonzeroMoveDirection * speed;
-        player.MyRigidbody.velocity = Vector2.Lerp(goalVelocity, player.MyRigidbody.velocity, smoothing);
+        var goalVelocity = Player.LastNonzeroMoveDirection * speed;
+        Player.MyRigidbody.velocity = Vector2.Lerp(goalVelocity, Player.MyRigidbody.velocity, smoothing);
     }
 
     private void Update()
@@ -28,7 +28,7 @@ public class DashMove : Move
 
     public override void OnStartMove()
     {
-        foreach (var otherMove in player.allMoves)
+        foreach (var otherMove in Player.allMoves)
         {
             if (otherMove != this)
             {

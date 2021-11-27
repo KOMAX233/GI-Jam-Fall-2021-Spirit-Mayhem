@@ -34,17 +34,10 @@ public class ProjectileMove : Move
 
     public Rigidbody2D projectilePrefab;
     public int castButton = 1;
-
-    public bool randomizeStats;
     public ProjectileStats stats;
 
     public void Start()
     {
-        if (randomizeStats)
-        {
-            stats = ProjectileStats.Generate();
-        }
-
         cooldown = stats.cooldown;
     }
 
@@ -60,10 +53,10 @@ public class ProjectileMove : Move
             var projectile = Instantiate(projectilePrefab);
             var projectileComponent = projectile.GetComponent<Projectile>();
             var spriteComponent = projectile.GetComponentInChildren<SpriteRenderer>();
-            var toMouse = player.MousePos - player.transform.position;
+            var toMouse = Player.MousePos - Player.transform.position;
             toMouse.z = 0;
 
-            projectile.transform.position = player.transform.position;
+            projectile.transform.position = Player.transform.position;
             projectile.transform.Rotate(0, 0, Mathf.Atan2(toMouse.y, toMouse.x) * Mathf.Rad2Deg);
             projectile.transform.localScale = new Vector3(stats.size, stats.size, stats.size);
             projectile.velocity = stats.speed * toMouse.normalized;

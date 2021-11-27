@@ -214,6 +214,7 @@ MonoBehaviour:
   player: {fileID: 762515332}
   winLevel: {fileID: 1668274163}
   enemyPrefab: {fileID: 6772099338702869343, guid: 5381db7fe833f454b96e4928e3aade6f, type: 3}
+  spiritPrefab: {fileID: 3020132289987508670, guid: f940edddebfbeef43a6eacc049839475, type: 3}
 --- !u!4 &515764738
 Transform:
   m_ObjectHideFlags: 0

@@ -3,7 +3,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public static Player Instance { get; private set; }
+    public static Player Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = GameObject.FindWithTag("Player").GetComponent<Player>();
+            }
+            return _instance;
+        }
+        private set => _instance = value;
+    }
 
     public Rigidbody2D MyRigidbody { get; private set; }
     public Health MyHealth { get; private set; }
@@ -14,10 +25,11 @@ public class Player : MonoBehaviour
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
 
     [HideInInspector] public List<Move> allMoves = new();
+    private static Player _instance;
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
 
-    private void Start()
+    private void Awake()
     {
         Instance = this;
         MyRigidbody = GetComponent<Rigidbody2D>();
