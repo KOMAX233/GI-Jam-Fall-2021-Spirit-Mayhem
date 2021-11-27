@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 723396601}
   - component: {fileID: 723396599}
   - component: {fileID: 723396600}
+  - component: {fileID: 723396602}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -354,6 +355,22 @@ Transform:
   m_Father: {fileID: 1922698189}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!19719996 &723396602
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723396598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!114 &762515332 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6785048258789890001, guid: 095d99325a89c9a42b296e03588b2182, type: 3}
