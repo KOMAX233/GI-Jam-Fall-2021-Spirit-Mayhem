@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
         // Set random enemy type
         //type = Random.Range(0, 3);
         type = 0;
-        if (type == 0) { AttackRange = 0.5f; }
+        if (type == 0) { AttackRange = 0.8f; }
         else if (type == 1) { AttackRange = 3f; }
         AlertRange = AttackRange + 5f;
 
