@@ -22,7 +22,8 @@ public class Player : MonoBehaviour
         MyRigidbody = GetComponent<Rigidbody2D>();
         MyHealth = GetComponent<Health>();
         MyCamera = GetComponentInChildren<Camera>();
-        for (int i = 0; i < Spirits.Length; ++i) {
+        for (int i = 0; i < Spirits.Length; ++i)
+        {
             Spirits[i].GetComponent<Renderer>().material.color = randColor();
             range = transform.position - Spirits[i].transform.position;
         }
@@ -49,20 +50,32 @@ public class Player : MonoBehaviour
         animator.SetFloat("horizontal", MoveDirection.x);
         animator.SetFloat("vertical", MoveDirection.y);
         animator.SetFloat("speed", MoveDirection.sqrMagnitude);
+        if (Input.GetMouseButtonDown(0))
+        {
+            animator.SetBool("attack", true);
+        }
+        else
+        {
+            animator.SetBool("attack", false);
+        }
     }
 
-    private Color randColor() {
-        Color genColor = new Color(Random.Range(0,255)/255f, Random.Range(0,255)/255f, Random.Range(0,255)/255f);
+    private Color randColor()
+    {
+        Color genColor = new Color(Random.Range(0, 255) / 255f, Random.Range(0, 255) / 255f, Random.Range(0, 255) / 255f);
         return genColor;
     }
 
-    private void LateUpdate() {
+    private void LateUpdate()
+    {
         // spirit following
         Vector3 targetPos = transform.position - range;
         PositionList.Add(targetPos);
-        if (PositionList.Count > distance) {
+        if (PositionList.Count > distance)
+        {
             PositionList.RemoveAt(0);
-            for (int i = 0; i < Spirits.Length; ++i) {
+            for (int i = 0; i < Spirits.Length; ++i)
+            {
                 Spirits[i].transform.position = PositionList[0];
             }
         }
