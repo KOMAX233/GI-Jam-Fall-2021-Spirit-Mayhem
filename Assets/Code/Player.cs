@@ -7,10 +7,9 @@ public class Player : MonoBehaviour
     {
         get
         {
-            if (_instance == null)
-            {
-                _instance = GameObject.FindWithTag("Player").GetComponent<Player>();
-            }
+            if (_instance != null) return _instance;
+            var playerObject = GameObject.FindWithTag("Player");
+            if (playerObject != null) _instance = playerObject.GetComponent<Player>();
             return _instance;
         }
         private set => _instance = value;

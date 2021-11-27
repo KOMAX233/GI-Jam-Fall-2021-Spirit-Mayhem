@@ -163,7 +163,7 @@ public class LevelProcgen : MonoBehaviour
         return true;
     }
 
-    public void FillRoom(Room r, Tile? t)
+    public void FillRoom(Room r, Tile t)
     {
         for (int x = r.lowerLeft.x; x <= r.upperRight.x; x++)
         {
