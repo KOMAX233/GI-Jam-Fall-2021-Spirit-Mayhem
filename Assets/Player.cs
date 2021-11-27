@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     public List<Vector2> PositionList;
     public int distance = 20;
     public Vector3 range;
-    public float followsharpness = 0.1f;
     [HideInInspector] public List<Move> allMoves = new();
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
