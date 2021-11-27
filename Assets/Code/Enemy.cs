@@ -5,7 +5,6 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [HideInInspector] public Rigidbody2D MyRigidbody;
-    [HideInInspector] public Transform MyTransform;
     public Health MyHealth;
 
 
@@ -25,7 +24,6 @@ public class Enemy : MonoBehaviour
     {
         // Set component variables
         MyRigidbody = GetComponent<Rigidbody2D>();
-        MyTransform = GetComponent<Transform>();
         MyHealth = GetComponent<Health>();
 
         // Set Player object
@@ -45,6 +43,6 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerTransform.position);
+        distanceToPlayer = Vector2.Distance(transform.position, PlayerTransform.position);
     }
 }
