@@ -9998,9 +9998,10 @@ GameObject:
   - component: {fileID: 6785048258789890014}
   - component: {fileID: 6785048258789890013}
   - component: {fileID: 6785048258789890001}
+  - component: {fileID: 3355877008863064663}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10073,7 +10074,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1aa2c93bb55459680cc1601bf0506f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Spirit1: {fileID: 2903788044002708140, guid: e0de41634f11cc24599581fa0fb764e7, type: 3}
+  Spirit2: {fileID: 2903788044002708140, guid: e0de41634f11cc24599581fa0fb764e7, type: 3}
+  PositionList: []
+  distance: 20
   allMoves: []
+--- !u!114 &3355877008863064663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785048258789890011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4325816e99784294a9980b141402c441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &6785048259117012888
 GameObject:
   m_ObjectHideFlags: 0
