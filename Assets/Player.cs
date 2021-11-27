@@ -8,10 +8,10 @@ public class Player : MonoBehaviour
     public Camera MyCamera { get; private set; }
     public Vector2 MoveDirection { get; private set; }
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
-    public GameObject Spirit1;
-    public GameObject Spirit2;
+    public GameObject[] Spirits;
     public List<Vector2> PositionList;
     public int distance = 20;
+    public Vector3 range;
     [HideInInspector] public List<Move> allMoves = new();
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -21,8 +21,12 @@ public class Player : MonoBehaviour
         MyRigidbody = GetComponent<Rigidbody2D>();
         MyHealth = GetComponent<Health>();
         MyCamera = GetComponentInChildren<Camera>();
-        Spirit1.GetComponent<Renderer>().material.color = randColor();
-        Spirit2.GetComponent<Renderer>().material.color = randColor();
+        for (int i = 0; i < Spirits.Length; ++i) {
+            Spirits[i].GetComponent<Renderer>().material.color = randColor();
+            range = transform.position - Spirits[i].transform.position;
+        }
+
+
     }
 
     private void Update()
@@ -42,17 +46,22 @@ public class Player : MonoBehaviour
             LastNonzeroMoveDirection = MoveDirection;
         }
 
-        // spirit following
-        PositionList.Add(transform.position);
-        if (PositionList.Count > distance) {
-            PositionList.RemoveAt(0);
-            Spirit1.transform.position = PositionList[0] + new Vector2(1,0);
-            Spirit2.transform.position = PositionList[0] + new Vector2(-1,0);
-        }
     }
 
     private Color randColor() {
         Color genColor = new Color(Random.Range(0,255)/255f, Random.Range(0,255)/255f, Random.Range(0,255)/255f);
         return genColor;
+    }
+
+    private void LateUpdate() {
+        // spirit following
+        Vector3 targetPos = transform.position - range;
+        PositionList.Add(targetPos);
+        if (PositionList.Count > distance) {
+            PositionList.RemoveAt(0);
+            for (int i = 0; i < Spirits.Length; ++i) {
+                Spirits[i].transform.position = PositionList[0];
+            }
+        }
     }
 }
