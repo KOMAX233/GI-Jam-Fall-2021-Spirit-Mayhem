@@ -5260,7 +5260,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &4905064111150620170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5274,12 +5274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyRigidbody: {fileID: 0}
-  MyTransform: {fileID: 0}
   MyHealth: {fileID: 4822472347500496915}
   animator: {fileID: 2316087838438892928}
   player: {fileID: 0}
-  PlayerTransform: {fileID: 0}
-  PlayerPosition: {x: 0, y: 0, z: 0}
   allMoves: []
   type: 0
   AlertRange: 0

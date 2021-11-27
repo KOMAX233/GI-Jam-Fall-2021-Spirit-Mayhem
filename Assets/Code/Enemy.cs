@@ -50,7 +50,6 @@ public class Enemy : MonoBehaviour
         if (MyHealth.currentHealth <= 0) {
             animator.SetBool("dead", true);
         }
-        PlayerPosition = PlayerTransform.position;
-        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerPosition);
+        distanceToPlayer = Vector2.Distance(transform.position, PlayerPosition());
     }
 }
