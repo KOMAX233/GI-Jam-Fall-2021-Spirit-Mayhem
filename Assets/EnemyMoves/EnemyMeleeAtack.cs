@@ -31,7 +31,6 @@ public class EnemyMeleeAtack : EnemyMove
                 atk = false;
             }
         }
-        swipeCollider.triggerStay.Clear();
     }
 
     public void Update()
@@ -66,10 +65,9 @@ public class EnemyMeleeAtack : EnemyMove
     {
         attackCooldown = 0f;
         atk = true;
-        var zAngle = Mathf.Atan2(enemy.PlayerTransform.position.x, enemy.PlayerTransform.position.y) * Mathf.Rad2Deg;
+        var attackPos = enemy.PlayerPosition - enemy.MyTransform.position;
+        var zAngle = Mathf.Atan2(attackPos.y, attackPos.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, zAngle);
-
-        swipeCollider.triggerStay.Clear();
     }
 
     public override void OnEndMove()

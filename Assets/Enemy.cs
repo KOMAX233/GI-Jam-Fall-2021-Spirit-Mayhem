@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
 
     [HideInInspector] public GameObject player;
     [HideInInspector] public Transform PlayerTransform;
+    [HideInInspector] public Vector3 PlayerPosition;
 
     public List<EnemyMove> allMoves = new();
 
@@ -31,6 +32,7 @@ public class Enemy : MonoBehaviour
         // Set Player object
         player = GameObject.FindWithTag("Player");
         PlayerTransform = player.GetComponent<Transform>();
+        PlayerPosition = PlayerTransform.position;
 
         // Set random enemy type
         //type = Random.Range(0, 3);
@@ -42,9 +44,9 @@ public class Enemy : MonoBehaviour
         distanceToPlayer = 0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerTransform.position);
+        PlayerPosition = PlayerTransform.position;
+        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerPosition);
     }
 }
