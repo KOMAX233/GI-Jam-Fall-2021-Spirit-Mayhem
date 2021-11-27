@@ -10074,10 +10074,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1aa2c93bb55459680cc1601bf0506f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spirit1: {fileID: 2903788044002708140, guid: e0de41634f11cc24599581fa0fb764e7, type: 3}
-  Spirit2: {fileID: 2903788044002708140, guid: e0de41634f11cc24599581fa0fb764e7, type: 3}
+  Spirits: []
   PositionList: []
   distance: 20
+  range: {x: 0, y: 0, z: 0}
   allMoves: []
 --- !u!114 &3355877008863064663
 MonoBehaviour:
