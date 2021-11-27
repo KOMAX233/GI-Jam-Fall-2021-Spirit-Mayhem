@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
 
     [HideInInspector] public GameObject player;
     [HideInInspector] public Transform PlayerTransform;
+    [HideInInspector] public Vector3 PlayerPosition;
 
     public List<EnemyMove> allMoves = new();
 
@@ -29,20 +30,21 @@ public class Enemy : MonoBehaviour
         // Set Player object
         player = GameObject.FindWithTag("Player");
         PlayerTransform = player.GetComponent<Transform>();
+        PlayerPosition = PlayerTransform.position;
 
         // Set random enemy type
         //type = Random.Range(0, 3);
         type = 0;
-        if (type == 0) { AttackRange = 0.5f; }
+        if (type == 0) { AttackRange = 0.8f; }
         else if (type == 1) { AttackRange = 3f; }
         AlertRange = AttackRange + 5f;
 
         distanceToPlayer = 0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        distanceToPlayer = Vector2.Distance(transform.position, PlayerTransform.position);
+        PlayerPosition = PlayerTransform.position;
+        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerPosition);
     }
 }

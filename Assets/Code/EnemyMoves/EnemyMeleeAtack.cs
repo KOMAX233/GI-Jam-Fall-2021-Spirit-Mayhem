@@ -12,7 +12,7 @@ public class EnemyMeleeAtack : EnemyMove
     private bool atk;
     void Start()
     {
-        damage = 1f;
+        damage = 10f;
         hitDuration = 0.7f;
         attackCooldown = 0f;
         MaxCooldown = 2f;
@@ -25,12 +25,12 @@ public class EnemyMeleeAtack : EnemyMove
         foreach (var other in swipeCollider.triggerStay)
         {
             var health = other.GetComponentInParent<Health>();
-            if (health != null && other.name == "Player" && atk == false)
+            if (health != null && other.name == "Player" && atk)
             {
                 health.Damage(damage);
+                atk = false;
             }
         }
-        swipeCollider.triggerStay.Clear();
     }
 
     public void Update()
@@ -64,10 +64,10 @@ public class EnemyMeleeAtack : EnemyMove
     public override void OnStartMove()
     {
         attackCooldown = 0f;
-        var zAngle = Mathf.Atan2(enemy.PlayerTransform.position.x, enemy.PlayerTransform.position.y) * Mathf.Rad2Deg;
+        atk = true;
+        var attackPos = enemy.PlayerPosition - enemy.MyTransform.position;
+        var zAngle = Mathf.Atan2(attackPos.y, attackPos.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, zAngle);
-
-        swipeCollider.triggerStay.Clear();
     }
 
     public override void OnEndMove()
