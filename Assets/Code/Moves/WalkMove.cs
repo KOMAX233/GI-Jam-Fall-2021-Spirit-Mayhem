@@ -8,13 +8,13 @@ public class WalkMove : Move
     private void FixedUpdate()
     {
         if (!IsActive) return;
-        var goalVelocity = player.MoveDirection * speed;
-        player.MyRigidbody.velocity = Vector2.Lerp(goalVelocity, player.MyRigidbody.velocity, smoothing);
+        var goalVelocity = Player.MoveDirection * speed;
+        Player.MyRigidbody.velocity = Vector2.Lerp(goalVelocity, Player.MyRigidbody.velocity, smoothing);
     }
 
     private void Update()
     {
-        if (player.allMoves.Exists(m => m != this && m.IsActive))
+        if (Player.allMoves.Exists(m => m != this && m.IsActive))
         {
             EndMove();
         }

@@ -5276,7 +5276,6 @@ MonoBehaviour:
   MyRigidbody: {fileID: 0}
   MyHealth: {fileID: 4822472347500496915}
   animator: {fileID: 2316087838438892928}
-  player: {fileID: 0}
   allMoves: []
   type: 0
   AlertRange: 0

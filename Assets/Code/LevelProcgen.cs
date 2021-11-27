@@ -9,9 +9,12 @@ public class LevelProcgen : MonoBehaviour
     public Tile wall;
     public Tilemap tilemap;
     public Player player;
+
     public GameObject winLevel;
+
     // public NavMeshSurface2d navMesh;
     public GameObject enemyPrefab;
+    public GameObject spiritPrefab;
 
     private GameObject currentLevel;
 
@@ -72,6 +75,7 @@ public class LevelProcgen : MonoBehaviour
 
         yield return new WaitForEndOfFrame();
 
+        // Spawn enemies
         foreach (var r in allRooms)
         {
             if (Random.value < .5f) continue;
@@ -86,6 +90,18 @@ public class LevelProcgen : MonoBehaviour
                 var enemy = Instantiate(enemyPrefab, currentLevel.transform);
                 enemy.transform.position = pos + 0.5f * Vector2.one;
             }
+        }
+
+        // Spawn spirits
+        foreach (var r in allRooms)
+        {
+            if (Random.value < .3f) continue;
+            var pos = new Vector2(
+                Random.Range(r.lowerLeft.x, r.upperRight.x + 1),
+                Random.Range(r.lowerLeft.y, r.upperRight.y + 1));
+
+            var spirit = Instantiate(spiritPrefab, currentLevel.transform);
+            spirit.transform.position = pos + 0.5f * Vector2.one;
         }
     }
 
@@ -147,7 +163,7 @@ public class LevelProcgen : MonoBehaviour
         return true;
     }
 
-    public void FillRoom(Room r, Tile? t)
+    public void FillRoom(Room r, Tile t)
     {
         for (int x = r.lowerLeft.x; x <= r.upperRight.x; x++)
         {

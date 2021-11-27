@@ -66,7 +66,7 @@ public class SlashMove : Move
 
     public override void OnStartMove()
     {
-        var toMouse = player.MousePos - player.transform.position;
+        var toMouse = Player.MousePos - Player.transform.position;
         var zAngle = Mathf.Atan2(toMouse.y, toMouse.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, zAngle);
 

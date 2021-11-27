@@ -2,19 +2,20 @@
 
 public class Move : MonoBehaviour
 {
-    public Player player;
     public float cooldown;
     public float LastStartTime { get; private set; }
     public bool IsActive { get; private set; }
 
+    protected static Player Player => Player.Instance;
+
     public void OnDisable()
     {
-        player.allMoves.Add(this);
+        Player.allMoves.Add(this);
     }
 
     public void OnEnable()
     {
-        player.allMoves.Add(this);
+        Player.allMoves.Add(this);
     }
 
     public bool TryStartMove()
