@@ -24,11 +24,10 @@ public class SlashMove : Move
         if (!IsActive) return;
         foreach (var other in CurrentPart.slashCollider.triggerStay)
         {
+            if (other == null) continue;
             var health = other.GetComponentInParent<Health>();
-            if (health != null && health != player.MyHealth)
-            {
-                health.Damage(CurrentPart.damage);
-            }
+            if (health == null) continue;
+            health.Damage(CurrentPart.damage);
         }
 
         CurrentPart.slashCollider.triggerStay.Clear();

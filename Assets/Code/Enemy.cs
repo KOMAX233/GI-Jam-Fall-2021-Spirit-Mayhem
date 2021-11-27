@@ -8,9 +8,7 @@ public class Enemy : MonoBehaviour
     public Health MyHealth;
 
 
-    [HideInInspector] public GameObject player;
-    [HideInInspector] public Transform PlayerTransform;
-    [HideInInspector] public Vector3 PlayerPosition;
+    [HideInInspector] public Player player;
 
     public List<EnemyMove> allMoves = new();
 
@@ -18,6 +16,11 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public float AlertRange;
     [HideInInspector] public float AttackRange;
     [HideInInspector] public float distanceToPlayer;
+
+    public Vector3 PlayerPosition()
+    {
+        return player == null ? transform.position : player.transform.position;
+    }
 
 
     // Start is called before the first frame update
@@ -28,9 +31,7 @@ public class Enemy : MonoBehaviour
         MyHealth = GetComponent<Health>();
 
         // Set Player object
-        player = GameObject.FindWithTag("Player");
-        PlayerTransform = player.GetComponent<Transform>();
-        PlayerPosition = PlayerTransform.position;
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
 
         // Set random enemy type
         //type = Random.Range(0, 3);
@@ -44,7 +45,6 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        PlayerPosition = PlayerTransform.position;
-        distanceToPlayer = Vector2.Distance(MyTransform.position, PlayerPosition);
+        distanceToPlayer = Vector2.Distance(transform.position, PlayerPosition());
     }
 }

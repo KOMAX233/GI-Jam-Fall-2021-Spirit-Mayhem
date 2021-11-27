@@ -28,7 +28,7 @@ public class EnemyWalk : EnemyMove
         {
             // Move enemy closer to player
             // enemy.MyTransform.position = Vector2.MoveTowards(enemy.MyTransform.position, enemy.PlayerTransform.position, speed * Time.deltaTime);
-            enemy.MyRigidbody.velocity = (enemy.PlayerTransform.position - enemy.transform.position).normalized * speed;
+            enemy.MyRigidbody.velocity = (enemy.PlayerPosition() - enemy.transform.position).normalized * speed;
         }
     }
     private void Update()
