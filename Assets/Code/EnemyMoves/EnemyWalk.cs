@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyWalk : EnemyMove
@@ -29,7 +27,8 @@ public class EnemyWalk : EnemyMove
         if (enemy.distanceToPlayer > AttackRange && enemy.distanceToPlayer <= AlertRange)
         {
             // Move enemy closer to player
-            enemy.MyTransform.position = Vector2.MoveTowards(enemy.MyTransform.position, enemy.PlayerTransform.position, speed * Time.deltaTime);
+            // enemy.MyTransform.position = Vector2.MoveTowards(enemy.MyTransform.position, enemy.PlayerTransform.position, speed * Time.deltaTime);
+            enemy.MyRigidbody.velocity = (enemy.PlayerPosition() - enemy.transform.position).normalized * speed;
         }
     }
     private void Update()

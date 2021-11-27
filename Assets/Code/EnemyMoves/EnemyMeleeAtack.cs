@@ -65,7 +65,7 @@ public class EnemyMeleeAtack : EnemyMove
     {
         attackCooldown = 0f;
         atk = true;
-        var attackPos = enemy.PlayerPosition - enemy.MyTransform.position;
+        var attackPos = enemy.PlayerPosition() - enemy.transform.position;
         var zAngle = Mathf.Atan2(attackPos.y, attackPos.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, zAngle);
     }
