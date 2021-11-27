@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public GameObject[] Spirits;
     public List<Vector2> PositionList;
     public int distance = 20;
+    public Vector3 range;
     [HideInInspector] public List<Move> allMoves = new();
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
