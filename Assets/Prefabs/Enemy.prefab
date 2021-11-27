@@ -5276,7 +5276,6 @@ MonoBehaviour:
   MyRigidbody: {fileID: 0}
   MyHealth: {fileID: 4822472347500496915}
   animator: {fileID: 2316087838438892928}
-  player: {fileID: 0}
   allMoves: []
   type: 0
   AlertRange: 0
@@ -5325,7 +5324,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.17198476
+  m_Radius: 1
 --- !u!212 &2316087838438892931
 SpriteRenderer:
   m_ObjectHideFlags: 0
