@@ -11,7 +11,7 @@ public class Health : MonoBehaviour
         damageTaken += damage;
         if (damageTaken >= maxHealth)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 1);
         }
     }
     public void Update()
