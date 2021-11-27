@@ -7,6 +7,7 @@ public class Spirit : MonoBehaviour
 
     public float chaseStartRange = .5f;
     public float chaseRate = .5f;
+    public float goalDistance = .5f;
 
     private bool chasingPlayer;
 
@@ -26,13 +27,30 @@ public class Spirit : MonoBehaviour
         {
             if (toPlayer.magnitude < chaseStartRange)
             {
-                MyProjectileMove.gameObject.SetActive(true);
                 chasingPlayer = true;
+                Player.Instance.allSpirits.Add(this);
             }
         }
         else
         {
-            transform.position += toPlayer * (1 - Mathf.Exp(-Time.deltaTime * chaseRate));
+            var placeInLine = Player.Instance.allSpirits.IndexOf(this);
+            if (placeInLine == -1)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            if (placeInLine == 0)
+            {
+                MyProjectileMove.gameObject.SetActive(true);
+            }
+
+            var followPos = placeInLine == 0
+                ? Player.Instance.transform.position
+                : Player.Instance.allSpirits[placeInLine - 1].transform.position;
+            var toFollowPos = followPos - transform.position;
+            var toGoalPos = toFollowPos - goalDistance * toFollowPos.normalized;
+            transform.position += toGoalPos * (1 - Mathf.Exp(-Time.deltaTime * chaseRate));
         }
     }
 }

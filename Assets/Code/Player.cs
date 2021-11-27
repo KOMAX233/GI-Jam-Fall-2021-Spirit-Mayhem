@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
 
     [HideInInspector] public List<Move> allMoves = new();
+    [HideInInspector] public List<Spirit> allSpirits = new();
     private static Player _instance;
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
