@@ -3,30 +3,27 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static Player Instance { get; private set; }
+
     public Rigidbody2D MyRigidbody { get; private set; }
     public Health MyHealth { get; private set; }
     public Camera MyCamera { get; private set; }
+    public Animator MyAnimator { get; private set; }
+
     public Vector2 MoveDirection { get; private set; }
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
-    public GameObject[] Spirits;
-    public List<Vector2> PositionList;
-    public int distance = 20;
-    public Vector3 range;
-    public Animator animator;
+
     [HideInInspector] public List<Move> allMoves = new();
 
     public Vector3 MousePos => MyCamera.ScreenToWorldPoint(Input.mousePosition);
 
     private void Start()
     {
+        Instance = this;
         MyRigidbody = GetComponent<Rigidbody2D>();
         MyHealth = GetComponent<Health>();
         MyCamera = GetComponentInChildren<Camera>();
-        for (int i = 0; i < Spirits.Length; ++i)
-        {
-            Spirits[i].GetComponent<Renderer>().material.color = randColor();
-            range = transform.position - Spirits[i].transform.position;
-        }
+        MyAnimator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
@@ -46,32 +43,9 @@ public class Player : MonoBehaviour
             LastNonzeroMoveDirection = MoveDirection;
         }
 
-        animator.SetFloat("horizontal", LastNonzeroMoveDirection.x);
-        animator.SetFloat("vertical", LastNonzeroMoveDirection.y);
-        animator.SetFloat("speed", LastNonzeroMoveDirection.sqrMagnitude);
-        animator.SetBool("attack", Input.GetMouseButtonDown(0));
-    }
-
-    private Color randColor()
-    {
-        return new Color(
-            Random.Range(0, 255) / 255f,
-            Random.Range(0, 255) / 255f,
-            Random.Range(0, 255) / 255f);
-    }
-
-    private void LateUpdate()
-    {
-        // spirit following
-        Vector3 targetPos = transform.position - range;
-        PositionList.Add(targetPos);
-        if (PositionList.Count > distance)
-        {
-            PositionList.RemoveAt(0);
-            for (int i = 0; i < Spirits.Length; ++i)
-            {
-                Spirits[i].transform.position = PositionList[0];
-            }
-        }
+        MyAnimator.SetFloat("horizontal", LastNonzeroMoveDirection.x);
+        MyAnimator.SetFloat("vertical", LastNonzeroMoveDirection.y);
+        MyAnimator.SetFloat("speed", LastNonzeroMoveDirection.sqrMagnitude);
+        MyAnimator.SetBool("attack", allMoves.Exists(m => m is ProjectileMove && m.IsActive));
     }
 }
