@@ -34,7 +34,7 @@ public class Projectile : MonoBehaviour
 
         transform.position = pos;
         transform.rotation = rot;
-        transform.localScale = (Vector3) se.size + Vector3.forward;
+        transform.localScale = (se.growOverTime ? Vector3.zero : se.size) + Vector3.forward;
         MyRigidbody.velocity = se.speed * dir;
 
         MySpriteRenderer.color = sp.color;
