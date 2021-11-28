@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
         MyCamera = GetComponentInChildren<Camera>();
         MyAnimator = GetComponentInChildren<Animator>();
         worldCamera.SetActive(false);
+        Time.timeScale = 1;
     }
 
     private void Update()
@@ -64,6 +65,7 @@ public class Player : MonoBehaviour
         MyAnimator.SetBool("attack", allMoves.Exists(m => m is ProjectileMove && m.IsActive));
 
         if (MyHealth.currentHealth <= 0) {
+            Time.timeScale=0;
             worldCamera.SetActive(true);
             playerCamera.SetActive(false);
         }
