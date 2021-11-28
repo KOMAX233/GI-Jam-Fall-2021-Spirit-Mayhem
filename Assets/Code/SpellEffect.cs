@@ -25,12 +25,12 @@ public class SpellEffect
         {
             lifetime = Random.Range(.1f, 1),
             speed = Random.value < .5f ? 0 : Random.Range(0, 10f),
-            size = new Vector2(Random.Range(1.5f, 3.5f), Random.Range(1.5f, 3.5f)),
+            size = new Vector2(Random.Range(2.5f, 4.5f), Random.Range(2.5f, 4.5f)),
             pierce = true,
             growOverTime = Random.value < .8f,
             returning = Random.value < .2f,
 
-            damage = Random.Range(1, 100f),
+            damage = 1 + 100 * Random.value * Random.value,
             onHit = new List<SpellEffect>(),
         };
         s.description =
@@ -52,7 +52,7 @@ public class SpellEffect
             pierce = Random.value < .2f,
             returning = Random.value < .2f,
 
-            damage = Random.Range(1, 100f),
+            damage = 1 + 100 * Random.value * Random.value,
             onHit = new List<SpellEffect>(),
         };
         s.description =
