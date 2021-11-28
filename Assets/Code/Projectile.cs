@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour
 
     private SpellParams sp;
     private SpellEffect se;
+    private Vector2 spawnPos;
     private float spawnTime;
     private HashSet<Health> hit = new();
     private bool onReturn;
@@ -22,6 +23,7 @@ public class Projectile : MonoBehaviour
     {
         sp = spellParams;
         se = spellEffect;
+        spawnPos = pos;
         spawnTime = Time.time;
 
         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
@@ -44,6 +46,15 @@ public class Projectile : MonoBehaviour
         {
             health.Damage(se.damage);
             hit.Add(health);
+
+            foreach (var se2 in se.onHit)
+            {
+                var dir = (Vector2) health.transform.position - spawnPos;
+                dir = dir.normalized;
+
+                var projectile = Instantiate(sp.projectilePrefab);
+                projectile.Cast(sp, se2, health.transform.position, dir);
+            }
         }
 
         if (!se.pierce) TryDestroySelf();

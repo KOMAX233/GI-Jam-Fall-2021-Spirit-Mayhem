@@ -5,6 +5,7 @@ using Random = UnityEngine.Random;
 [Serializable]
 public class SpellParams
 {
+    public Projectile projectilePrefab;
     public float windup;
     public Color color;
 

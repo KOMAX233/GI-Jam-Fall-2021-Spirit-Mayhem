@@ -10,6 +10,7 @@ public class ProjectileMove : Move
     public void Generate()
     {
         spellParams = SpellParams.Generate();
+        spellParams.projectilePrefab = projectilePrefab;
         spellEffect = SpellEffect.Generate();
 
         var power = spellEffect.Power();

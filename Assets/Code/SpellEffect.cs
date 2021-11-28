@@ -34,7 +34,7 @@ public class SpellEffect
             damage = Random.Range(1, 100f),
             onHit = new List<SpellEffect>(),
         };
-        while (Random.value < .5f)
+        while (Random.value < .3f)
         {
             s.onHit.Add(Generate());
         }

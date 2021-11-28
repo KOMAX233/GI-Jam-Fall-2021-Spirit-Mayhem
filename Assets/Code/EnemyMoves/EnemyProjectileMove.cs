@@ -9,11 +9,12 @@ public class EnemyProjectileMove : EnemyMove
     public void Start()
     {
         spellParams = SpellParams.Generate();
+        spellParams.projectilePrefab = projectilePrefab;
         spellEffect = SpellEffect.Generate();
 
         var power = spellEffect.Power();
         power *= 1 - spellParams.windup;
-        cooldown = .02f * power;
+        cooldown = .1f * power;
     }
 
     public void Update()
