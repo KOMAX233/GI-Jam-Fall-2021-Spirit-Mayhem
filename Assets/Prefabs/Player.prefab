@@ -94,6 +94,7 @@ MonoBehaviour:
   castButton: 0
   projectilePrefab: {fileID: 3446916713434032652, guid: 68c07cbabacdfb5499e5edcf58dd720f, type: 3}
   spellParams:
+    projectilePrefab: {fileID: 0}
     windup: 0.1
     color: {r: 1, g: 1, b: 1, a: 1}
   spellEffect:
@@ -106,6 +107,7 @@ MonoBehaviour:
     returning: 0
     damage: 25
     onHit: []
+    description: 
 --- !u!1 &6785048257442566468
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,8 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4325816e99784294a9980b141402c441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
+  maxHealth: 500
 --- !u!70 &2070139899
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

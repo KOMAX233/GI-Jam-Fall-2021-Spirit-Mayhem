@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour
     public float RAttackRange;
     public float distanceToPlayer;
 
-    
 
     public Vector3 PlayerPosition()
     {
@@ -35,6 +34,7 @@ public class Enemy : MonoBehaviour
         {
             MAttackRange = 0.8f;
         }
+
         if (type == 1 || type == 2)
         {
             RAttackRange = 3.9f;
@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        if (MyHealth.currentHealth <= 0)
+        if (MyHealth.CurrentHealth <= 0)
         {
             animator.SetBool("dead", true);
         }

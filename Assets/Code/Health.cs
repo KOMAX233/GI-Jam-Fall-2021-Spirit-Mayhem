@@ -4,7 +4,8 @@ public class Health : MonoBehaviour
 {
     public float maxHealth = 10;
     private float damageTaken;
-    public float currentHealth;
+
+    public float CurrentHealth => maxHealth - damageTaken;
 
     public void Damage(float damage)
     {
@@ -13,10 +14,5 @@ public class Health : MonoBehaviour
         {
             Destroy(gameObject, 1);
         }
-    }
-    public void Update()
-    {
-        currentHealth = maxHealth - damageTaken;
-        if (currentHealth <= 0) { Destroy(gameObject, 1); }
     }
 }
