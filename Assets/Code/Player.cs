@@ -23,6 +23,8 @@ public class Player : MonoBehaviour
     public Vector2 MoveDirection { get; private set; }
     public Vector2 LastNonzeroMoveDirection { get; private set; } = Vector2.down;
 
+    public GameObject playerCamera;
+    public GameObject worldCamera;
     [HideInInspector] public List<Move> allMoves = new();
     [HideInInspector] public List<Spirit> allSpirits = new();
     private static Player _instance;
@@ -36,6 +38,7 @@ public class Player : MonoBehaviour
         MyHealth = GetComponent<Health>();
         MyCamera = GetComponentInChildren<Camera>();
         MyAnimator = GetComponentInChildren<Animator>();
+        worldCamera.SetActive(false);
     }
 
     private void Update()
@@ -59,5 +62,10 @@ public class Player : MonoBehaviour
         MyAnimator.SetFloat("vertical", LastNonzeroMoveDirection.y);
         MyAnimator.SetFloat("speed", LastNonzeroMoveDirection.sqrMagnitude);
         MyAnimator.SetBool("attack", allMoves.Exists(m => m is ProjectileMove && m.IsActive));
+
+        if (MyHealth.currentHealth <= 0) {
+            worldCamera.SetActive(true);
+            playerCamera.SetActive(false);
+        }
     }
 }
