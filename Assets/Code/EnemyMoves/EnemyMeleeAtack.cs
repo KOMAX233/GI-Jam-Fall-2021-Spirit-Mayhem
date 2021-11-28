@@ -49,7 +49,7 @@ public class EnemyMeleeAtack : EnemyMove
 
     public void Update()
     {
-        if (enemy.distanceToPlayer <= enemy.MAttackRange + 0.1f)
+        if (enemy.DistanceToPlayer <= enemy.MAttackRange + 0.1f)
         {
             TryStartMove();
         }
@@ -66,7 +66,7 @@ public class EnemyMeleeAtack : EnemyMove
             projectile.transform.Rotate(0, 0, Mathf.Atan2(attackPos.y, attackPos.x) * Mathf.Rad2Deg);
             projectile.transform.localScale = new Vector3(stats.size, stats.size, stats.size);
             projectile.velocity = stats.speed * attackPos.normalized;
-            projectileComponent.damage = stats.damage;
+            // projectileComponent.damage = stats.damage;
             spriteComponent.color = stats.color;
 
             var lifetime = stats.range / stats.speed;

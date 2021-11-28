@@ -49,10 +49,10 @@ public class EnemyRangedAttack : EnemyMove
 
     public void Update()
     {
-        if (enemy.distanceToPlayer <= enemy.RAttackRange + 0.1f)
+        if (enemy.DistanceToPlayer <= enemy.RAttackRange + 0.1f)
         {
             // Attack if ranged enemy, or if boss and outside of melee range
-            if (enemy.type == 1 || enemy.distanceToPlayer > enemy.MAlertRange)
+            if (enemy.type == 1 || enemy.DistanceToPlayer > enemy.MAlertRange)
             {
                 TryStartMove();
             }
@@ -71,7 +71,7 @@ public class EnemyRangedAttack : EnemyMove
             projectile.transform.Rotate(0, 0, Mathf.Atan2(attackPos.y, attackPos.x) * Mathf.Rad2Deg);
             projectile.transform.localScale = new Vector3(stats.size, stats.size, stats.size);
             projectile.velocity = stats.speed * attackPos.normalized;
-            projectileComponent.damage = stats.damage;
+            // projectileComponent.damage = stats.damage;
             spriteComponent.color = stats.color;
 
             var lifetime = stats.range / stats.speed;

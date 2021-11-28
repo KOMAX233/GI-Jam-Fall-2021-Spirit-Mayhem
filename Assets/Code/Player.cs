@@ -63,11 +63,13 @@ public class Player : MonoBehaviour
         MyAnimator.SetFloat("vertical", LastNonzeroMoveDirection.y);
         MyAnimator.SetFloat("speed", LastNonzeroMoveDirection.sqrMagnitude);
         MyAnimator.SetBool("attack", allMoves.Exists(m => m is ProjectileMove && m.IsActive));
+    }
 
-        if (MyHealth.currentHealth <= 0) {
-            Time.timeScale=0;
-            worldCamera.SetActive(true);
-            playerCamera.SetActive(false);
-        }
+    public void OnPlayerDeath()
+    {
+        Time.timeScale = 0;
+        worldCamera.SetActive(true);
+        playerCamera.SetActive(false);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

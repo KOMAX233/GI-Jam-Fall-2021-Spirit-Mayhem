@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 
-public class ProjectileMove : Move
+public class EnemyProjectileMove : EnemyMove
 {
-    public int castButton = 1;
     public Projectile projectilePrefab;
     public SpellParams spellParams;
     public SpellEffect spellEffect;
 
-    public void Generate()
+    public void Start()
     {
         spellParams = SpellParams.Generate();
         spellParams.projectilePrefab = projectilePrefab;
@@ -15,23 +14,27 @@ public class ProjectileMove : Move
 
         var power = spellEffect.Power();
         power *= 1 - spellParams.windup;
-        cooldown = .01f * power;
+        cooldown = .1f * power;
     }
 
     public void Update()
     {
-        if (Input.GetMouseButtonDown(castButton))
+        if (enemy.DistanceToPlayer <= enemy.RAttackRange + 0.1f)
         {
-            TryStartMove();
+            // Attack if ranged enemy, or if boss and outside of melee range
+            if (enemy.type == 1 || enemy.DistanceToPlayer > enemy.MAlertRange)
+            {
+                TryStartMove();
+            }
         }
 
         if (IsActive && Time.time > LastStartTime + spellParams.windup)
         {
-            var toMouse = (Vector2) (Player.MousePos - Player.transform.position);
-            toMouse = toMouse.normalized;
+            var toPlayer = (Vector2) (enemy.PlayerPosition() - enemy.transform.position);
+            toPlayer = toPlayer.normalized;
 
             var projectile = Instantiate(projectilePrefab);
-            projectile.Cast(spellParams, spellEffect, Player.transform.position, toMouse);
+            projectile.Cast(spellParams, spellEffect, transform.position, toPlayer);
 
             EndMove();
         }

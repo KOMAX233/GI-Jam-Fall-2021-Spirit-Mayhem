@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class Spirit : MonoBehaviour
 {
@@ -16,12 +17,14 @@ public class Spirit : MonoBehaviour
         MyProjectileMove = GetComponentInChildren<ProjectileMove>(true);
         MySpriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
-        MyProjectileMove.stats = ProjectileMove.ProjectileStats.Generate();
-        MySpriteRenderer.color = MyProjectileMove.stats.color;
+        MyProjectileMove.Generate();
+        MySpriteRenderer.color = MyProjectileMove.spellParams.color;
     }
 
     private void Update()
     {
+        if (Player.Instance == null) return;
+
         var toPlayer = Player.Instance.transform.position - transform.position;
         if (!chasingPlayer)
         {
@@ -43,6 +46,8 @@ public class Spirit : MonoBehaviour
             if (placeInLine == 0)
             {
                 MyProjectileMove.gameObject.SetActive(true);
+                var percReady = (Time.time - MyProjectileMove.LastStartTime) / MyProjectileMove.cooldown;
+                MySpriteRenderer.color = MySpriteRenderer.color.WithAlpha(Mathf.Clamp01(percReady));
             }
 
             var followPos = placeInLine == 0
