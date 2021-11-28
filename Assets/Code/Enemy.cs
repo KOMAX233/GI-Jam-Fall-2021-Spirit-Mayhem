@@ -13,13 +13,14 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public float AttackRange;
     [HideInInspector] public float distanceToPlayer;
 
+    
+
     public Vector3 PlayerPosition()
     {
         return Player.Instance == null ? transform.position : Player.Instance.transform.position;
     }
 
 
-    // Start is called before the first frame update
     void Start()
     {
         // Set component variables
@@ -27,8 +28,7 @@ public class Enemy : MonoBehaviour
         MyHealth = GetComponent<Health>();
 
         // Set random enemy type
-        //type = Random.Range(0, 3);
-        type = 0;
+        type = Random.Range(0, 2);
         if (type == 0)
         {
             AttackRange = 0.8f;
