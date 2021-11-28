@@ -20,8 +20,8 @@ public class EnemyRangedAttack : EnemyMove
             var s = new EnemyProjectileStats
             {
                 damage = Random.Range(5,10),
-                range = Random.Range(3, 10),
-                speed = Random.Range(5, 10),
+                range = Random.Range(5, 10),
+                speed = Random.Range(3, 8),
                 windup = Random.Range(1f,2f),
                 size = Random.Range(.5f, 1f),
                 color = new Color(Random.value, Random.value, Random.value, .5f + .5f * Random.value)
