@@ -49,9 +49,14 @@ public class EnemyRangedAttack : EnemyMove
 
     public void Update()
     {
-        if (enemy.distanceToPlayer <= enemy.AttackRange + 0.1f)
+        if (enemy.distanceToPlayer <= enemy.RAttackRange + 0.1f)
         {
-            TryStartMove();
+            // Attack if ranged enemy, or if boss and outside of melee range
+            if (enemy.type == 1 || enemy.distanceToPlayer > enemy.MAlertRange)
+            {
+                TryStartMove();
+            }
+            
         }
 
         if (IsActive && Time.time > LastStartTime + stats.windup)

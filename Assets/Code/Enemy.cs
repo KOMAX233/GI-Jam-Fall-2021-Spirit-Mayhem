@@ -9,9 +9,11 @@ public class Enemy : MonoBehaviour
     public List<EnemyMove> allMoves = new();
 
     [HideInInspector] public int type;
-    [HideInInspector] public float AlertRange;
-    [HideInInspector] public float AttackRange;
-    [HideInInspector] public float distanceToPlayer;
+    public float MAlertRange;
+    public float RAlertRange;
+    public float MAttackRange;
+    public float RAttackRange;
+    public float distanceToPlayer;
 
     
 
@@ -28,17 +30,19 @@ public class Enemy : MonoBehaviour
         MyHealth = GetComponent<Health>();
 
         // Set random enemy type
-        type = Random.Range(0, 2);
-        if (type == 0)
+        //type = Random.Range(0, 2);
+        type = 2;
+        if (type == 0 || type == 2)
         {
-            AttackRange = 0.8f;
+            MAttackRange = 0.8f;
         }
-        else if (type == 1)
+        if (type == 1 || type == 2)
         {
-            AttackRange = 3f;
+            RAttackRange = 3.9f;
         }
 
-        AlertRange = AttackRange + 5f;
+        MAlertRange = MAttackRange + 3f;
+        RAlertRange = RAttackRange + 3f;
 
         distanceToPlayer = 0f;
         animator.SetBool("dead", false);
