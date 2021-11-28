@@ -23,6 +23,7 @@ public class SpellEffect
     {
         var s = new SpellEffect
         {
+            directionalNoise = 30 * Random.value * Random.value,
             lifetime = Random.Range(.1f, 1),
             speed = Random.value < .5f ? 0 : Random.Range(0, 10f),
             size = new Vector2(Random.Range(2.5f, 4.5f), Random.Range(2.5f, 4.5f)),
@@ -35,8 +36,8 @@ public class SpellEffect
         };
         s.description =
             (s.returning ? "Returning " : "") +
-            (s.speed > 0 ? "Cone " : "") +
-            "AOE Attack";
+            (s.speed > 0 ? s.growOverTime ? "Cone" : "Line"
+                : s.growOverTime ? "Burst" : "AOE");
         return s;
     }
 
@@ -58,7 +59,7 @@ public class SpellEffect
         s.description =
             (s.pierce ? "Piercing " : "") +
             (s.returning ? "Returning " : "") +
-            "Projectile Attack";
+            "Projectile";
         return s;
     }
 
@@ -70,7 +71,7 @@ public class SpellEffect
         else if (s.damage > 25) s.description += ", Medium Damage";
         else s.description += ", Low Damage";
 
-        while (Random.value < .3f)
+        if (Random.value < .3f)
         {
             var newSpellEffect = Generate();
             s.onHit.Add(newSpellEffect);

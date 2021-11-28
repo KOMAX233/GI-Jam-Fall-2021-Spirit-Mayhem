@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     private SpellParams sp;
     private SpellEffect se;
     private Vector2 spawnPos;
+    private Vector2 spawnDir;
     private float spawnTime;
     private HashSet<Health> hit = new();
     private bool onReturn;
@@ -23,8 +24,6 @@ public class Projectile : MonoBehaviour
     {
         sp = spellParams;
         se = spellEffect;
-        spawnPos = pos;
-        spawnTime = Time.time;
 
         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         angle += Random.Range(-1f, 1f) * se.directionalNoise;
@@ -37,6 +36,10 @@ public class Projectile : MonoBehaviour
         MyRigidbody.velocity = se.speed * dir;
 
         MySpriteRenderer.color = sp.color;
+
+        spawnPos = pos;
+        spawnDir = dir;
+        spawnTime = Time.time;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -47,17 +50,16 @@ public class Projectile : MonoBehaviour
             health.Damage(se.damage);
             hit.Add(health);
 
+            var dir = (Vector2) health.transform.position - spawnPos;
+            dir = dir.normalized;
             foreach (var se2 in se.onHit)
             {
-                var dir = (Vector2) health.transform.position - spawnPos;
-                dir = dir.normalized;
-
                 var projectile = Instantiate(sp.projectilePrefab);
                 projectile.Cast(sp, se2, health.transform.position, dir);
             }
         }
 
-        if (!se.pierce) TryDestroySelf();
+        if (!se.pierce || hit.Count >= 2) TryDestroySelf();
     }
 
     private void TryDestroySelf()
@@ -68,10 +70,19 @@ public class Projectile : MonoBehaviour
             MyRigidbody.velocity *= -1;
             hit.Clear();
             spawnTime = Time.time - se.lifetime + (Time.time - spawnTime);
+            return;
         }
-        else
+
+        Destroy(gameObject);
+
+        if (hit.Count != 0) return;
+        var dir = (Vector2) transform.position - spawnPos;
+        dir += .1f * spawnDir;
+        dir = dir.normalized;
+        foreach (var se2 in se.onHit)
         {
-            Destroy(gameObject);
+            var projectile = Instantiate(sp.projectilePrefab);
+            projectile.Cast(sp, se2, transform.position, dir);
         }
     }
 
