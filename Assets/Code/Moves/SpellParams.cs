@@ -13,7 +13,7 @@ public class SpellParams
     {
         return new SpellParams
         {
-            windup = Random.Range(0, .5f),
+            windup = Random.Range(.1f, .5f),
             color = new Color(Random.value, Random.value, Random.value)
         };
     }

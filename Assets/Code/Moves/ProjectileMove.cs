@@ -3,6 +3,7 @@
 public class ProjectileMove : Move
 {
     public int castButton = 1;
+    public GameObject castIndicator;
     public Projectile projectilePrefab;
     public SpellParams spellParams;
     public SpellEffect spellEffect;
@@ -18,7 +19,15 @@ public class ProjectileMove : Move
         cooldown = .01f * power;
     }
 
-    public void Update()
+    private void Start()
+    {
+        var castSprite = castIndicator.GetComponentInChildren<SpriteRenderer>();
+        var newColor = spellParams.color;
+        newColor.a = castSprite.color.a;
+        castSprite.color = newColor;
+    }
+
+    private void Update()
     {
         if (Input.GetMouseButtonDown(castButton))
         {
@@ -34,6 +43,14 @@ public class ProjectileMove : Move
             projectile.Cast(spellParams, spellEffect, Player.transform.position, toMouse);
 
             EndMove();
+        }
+
+        castIndicator.gameObject.SetActive(IsActive);
+        if (IsActive)
+        {
+            var progress = Mathf.Clamp01((Time.time - LastStartTime) / spellParams.windup);
+            castIndicator.transform.position = Player.transform.position;
+            castIndicator.transform.localScale = (1 - progress) * Vector3.one;
         }
     }
 }

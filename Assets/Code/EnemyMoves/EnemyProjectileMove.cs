@@ -2,6 +2,7 @@
 
 public class EnemyProjectileMove : EnemyMove
 {
+    public GameObject castIndicator;
     public Projectile projectilePrefab;
     public SpellParams spellParams;
     public SpellEffect spellEffect;
@@ -15,17 +16,19 @@ public class EnemyProjectileMove : EnemyMove
         var power = spellEffect.Power();
         power *= 1 - spellParams.windup;
         cooldown = .1f * power;
+        spellParams.windup += .5f;
+
+        var castSprite = castIndicator.GetComponentInChildren<SpriteRenderer>();
+        var newColor = spellParams.color;
+        newColor.a = castSprite.color.a;
+        castSprite.color = newColor;
     }
 
     public void Update()
     {
         if (enemy.DistanceToPlayer <= enemy.RAttackRange + 0.1f)
         {
-            // Attack if ranged enemy, or if boss and outside of melee range
-            if (enemy.type == 1 || enemy.DistanceToPlayer > enemy.MAlertRange)
-            {
-                TryStartMove();
-            }
+            TryStartMove();
         }
 
         if (IsActive && Time.time > LastStartTime + spellParams.windup)
@@ -37,6 +40,14 @@ public class EnemyProjectileMove : EnemyMove
             projectile.Cast(spellParams, spellEffect, transform.position, toPlayer);
 
             EndMove();
+        }
+
+        castIndicator.gameObject.SetActive(IsActive);
+        if (IsActive)
+        {
+            var progress = Mathf.Clamp01((Time.time - LastStartTime) / spellParams.windup);
+            castIndicator.transform.position = enemy.transform.position;
+            castIndicator.transform.localScale = (1 - progress) * Vector3.one;
         }
     }
 }

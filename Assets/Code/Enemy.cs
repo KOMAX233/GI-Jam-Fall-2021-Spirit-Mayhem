@@ -44,8 +44,6 @@ public class Enemy : MonoBehaviour
 
         MAlertRange = MAttackRange + 3f;
         RAlertRange = RAttackRange + 3f;
-
-        animator.SetBool("dead", false);
     }
 
     public void SpawnDeadEnemy()
