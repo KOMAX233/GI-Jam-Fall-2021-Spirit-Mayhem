@@ -1,4 +1,4 @@
-﻿using Unity.VisualScripting;
+﻿using System.Collections;
 using UnityEngine;
 
 public class Spirit : MonoBehaviour
@@ -21,6 +21,12 @@ public class Spirit : MonoBehaviour
         MySpriteRenderer.color = MyProjectileMove.spellParams.color;
     }
 
+    private IEnumerator RemoveSelf()
+    {
+        yield return new WaitForSeconds(30);
+        Player.Instance.allSpirits.Remove(this);
+    }
+
     private void Update()
     {
         if (Player.Instance == null) return;
@@ -32,6 +38,7 @@ public class Spirit : MonoBehaviour
             {
                 chasingPlayer = true;
                 Player.Instance.allSpirits.Add(this);
+                StartCoroutine(RemoveSelf());
             }
         }
         else
@@ -47,7 +54,9 @@ public class Spirit : MonoBehaviour
             {
                 MyProjectileMove.gameObject.SetActive(true);
                 var percReady = (Time.time - MyProjectileMove.LastStartTime) / MyProjectileMove.cooldown;
-                MySpriteRenderer.color = MySpriteRenderer.color.WithAlpha(Mathf.Clamp01(percReady));
+                var color = MySpriteRenderer.color;
+                color.a = Mathf.Clamp01(percReady);
+                MySpriteRenderer.color = color;
             }
 
             var followPos = placeInLine == 0
