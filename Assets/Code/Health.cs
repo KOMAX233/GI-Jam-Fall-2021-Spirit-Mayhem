@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
     public float maxHealth = 10;
     public UnityEvent onDeath;
 
-    private float damageTaken;
+    public float damageTaken;
 
     public float CurrentHealth => maxHealth - damageTaken;
 
