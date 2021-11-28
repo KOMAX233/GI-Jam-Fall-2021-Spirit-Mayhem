@@ -49,7 +49,7 @@ public class EnemyMeleeAtack : EnemyMove
 
     public void Update()
     {
-        if (enemy.distanceToPlayer <= enemy.AttackRange + 0.1f)
+        if (enemy.distanceToPlayer <= enemy.MAttackRange + 0.1f)
         {
             TryStartMove();
         }

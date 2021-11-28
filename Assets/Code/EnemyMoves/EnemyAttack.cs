@@ -34,10 +34,5 @@ public class EnemyAttack : EnemyMove
         {
             enemy.transform.GetChild(2).GetChild(0).gameObject.SetActive(false);
         }
-
-        foreach (var atk in AttackTypes)
-        {
-            enemy.allMoves.Remove(atk);
-        }
     }
 }
