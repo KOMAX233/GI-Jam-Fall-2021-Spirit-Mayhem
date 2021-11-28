@@ -20,13 +20,13 @@ public class EnemyWalk : EnemyMove
         if (enemy.type == 0)
         {
             // If enemy is between alert and attack range
-            if (enemy.distanceToPlayer > enemy.MAttackRange && enemy.distanceToPlayer <= enemy.MAlertRange)
+            if (enemy.DistanceToPlayer > enemy.MAttackRange && enemy.DistanceToPlayer <= enemy.MAlertRange)
             {
                 // Move enemy closer to player
                 enemy.MyRigidbody.velocity = (enemy.PlayerPosition() - enemy.transform.position).normalized * speed;
             }
             // If enemy is outside alert range
-            if (enemy.distanceToPlayer > enemy.MAlertRange)
+            if (enemy.DistanceToPlayer > enemy.MAlertRange)
             {
                 enemy.MyRigidbody.velocity = Vector3.zero;
             }
@@ -35,13 +35,13 @@ public class EnemyWalk : EnemyMove
         else if (enemy.type == 1)
         {
             // If enemy is between alert and attack range
-            if (enemy.distanceToPlayer > enemy.RAttackRange && enemy.distanceToPlayer <= enemy.RAlertRange)
+            if (enemy.DistanceToPlayer > enemy.RAttackRange && enemy.DistanceToPlayer <= enemy.RAlertRange)
             {
                 // Move enemy closer to player
                 enemy.MyRigidbody.velocity = (enemy.PlayerPosition() - enemy.transform.position).normalized * speed;
             }
             // If enemy is outside alert range
-            if (enemy.distanceToPlayer > enemy.RAlertRange)
+            if (enemy.DistanceToPlayer > enemy.RAlertRange)
             {
                 enemy.MyRigidbody.velocity = Vector3.zero;
             }
@@ -50,14 +50,14 @@ public class EnemyWalk : EnemyMove
         else if (enemy.type == 2)
         {
             // If enemy is between RangedAlert and RangedAttack range, or between MeleeAlert and MeleeAttack
-            if ((enemy.distanceToPlayer <= enemy.RAlertRange-0.1f && enemy.distanceToPlayer > enemy.RAttackRange+0.1f) ||
-                (enemy.distanceToPlayer > enemy.MAttackRange+0.1f && enemy.distanceToPlayer <= enemy.MAlertRange-0.1f))
+            if ((enemy.DistanceToPlayer <= enemy.RAlertRange-0.1f && enemy.DistanceToPlayer > enemy.RAttackRange+0.1f) ||
+                (enemy.DistanceToPlayer > enemy.MAttackRange+0.1f && enemy.DistanceToPlayer <= enemy.MAlertRange-0.1f))
             {
                 // Move enemy closer to player
                 enemy.MyRigidbody.velocity = (enemy.PlayerPosition() - enemy.transform.position).normalized * speed;
             }
             // If enemy is outside alert range 
-            else if (enemy.distanceToPlayer > enemy.RAlertRange)
+            else if (enemy.DistanceToPlayer > enemy.RAlertRange)
             {
                 enemy.MyRigidbody.velocity = Vector3.zero;
             }

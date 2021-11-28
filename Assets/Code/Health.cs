@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
     public float maxHealth = 10;
+    public UnityEvent onDeath;
+
     private float damageTaken;
 
     public float CurrentHealth => maxHealth - damageTaken;
@@ -12,7 +15,8 @@ public class Health : MonoBehaviour
         damageTaken += damage;
         if (damageTaken >= maxHealth)
         {
-            Destroy(gameObject, 1);
+            onDeath.Invoke();
+            Destroy(gameObject);
         }
     }
 }

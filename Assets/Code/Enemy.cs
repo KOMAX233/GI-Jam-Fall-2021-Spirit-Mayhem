@@ -4,25 +4,27 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [HideInInspector] public Rigidbody2D MyRigidbody;
-    public Health MyHealth;
+    [HideInInspector] public Health MyHealth;
     public Animator animator;
     public List<EnemyMove> allMoves = new();
+
+    public GameObject deadEnemyPrefab;
+    public float deadEnemyLifetime = 1f;
 
     [HideInInspector] public int type;
     public float MAlertRange;
     public float RAlertRange;
     public float MAttackRange;
     public float RAttackRange;
-    public float distanceToPlayer;
-
 
     public Vector3 PlayerPosition()
     {
         return Player.Instance == null ? transform.position : Player.Instance.transform.position;
     }
 
-
-    void Start()
+    public float DistanceToPlayer => Vector2.Distance(transform.position, PlayerPosition());
+    
+    private void Start()
     {
         // Set component variables
         MyRigidbody = GetComponent<Rigidbody2D>();
@@ -43,17 +45,13 @@ public class Enemy : MonoBehaviour
         MAlertRange = MAttackRange + 3f;
         RAlertRange = RAttackRange + 3f;
 
-        distanceToPlayer = 0f;
         animator.SetBool("dead", false);
     }
 
-    void Update()
+    public void SpawnDeadEnemy()
     {
-        if (MyHealth.CurrentHealth <= 0)
-        {
-            animator.SetBool("dead", true);
-        }
-
-        distanceToPlayer = Vector2.Distance(transform.position, PlayerPosition());
+        var deadEnemy = Instantiate(deadEnemyPrefab);
+        deadEnemy.transform.position = transform.position;
+        Destroy(deadEnemy, deadEnemyLifetime);
     }
 }
