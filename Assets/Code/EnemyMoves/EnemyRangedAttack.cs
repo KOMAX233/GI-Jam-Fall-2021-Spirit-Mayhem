@@ -1,66 +1,78 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EnemyRangedAttack : EnemyMove
 {
-    public float ProjectileDamage;
-    private float ProjectileSpeed;
-    private float ShootDuration;
-    private float MaxCooldown;
-    private float ShootCooldown;
-    private bool atk;
-
-    public GameObject projectile;
-
-    // Start is called before the first frame update
-    void Start()
+    [Serializable]
+    public class EnemyProjectileStats
     {
-        ProjectileDamage = 5f;
-        ShootDuration = 0.5f;
-        ShootCooldown = 0f;
-        MaxCooldown = 2f;
-        atk = false;
+        public float damage;
+        public float range;
+        public float speed;
+        public float cooldown;
+        public float windup;
+        public float size;
+        public Color color;
+
+        public static EnemyProjectileStats Generate()
+        {
+            var s = new EnemyProjectileStats
+            {
+                damage = Random.Range(5,10),
+                range = Random.Range(3, 10),
+                speed = Random.Range(5, 10),
+                windup = Random.Range(1f,2f),
+                size = Random.Range(.5f, 1f),
+                color = new Color(Random.value, Random.value, Random.value, .5f + .5f * Random.value)
+            };
+            var power = s.damage * (1 + s.range * s.speed * s.size / 1000) * (1 - s.windup);
+            s.cooldown = .02f * power;
+            return s;
+        }
     }
 
+    public Rigidbody2D projectilePrefab;
 
-    void FixedUpdate()
+    public bool randomizeStats = true;
+    public EnemyProjectileStats stats;
+
+    public void Start()
     {
-        if (!IsActive) return;
+        if (randomizeStats)
+        {
+            stats = EnemyProjectileStats.Generate();
+        }
+
+        cooldown = stats.cooldown;
     }
 
-
-    void Update()
+    public void Update()
     {
-        // If enemy is inside AttackRange (+ a small increment)
-        if (enemy.distanceToPlayer <= enemy.AttackRange + 0.1f && ShootCooldown >= MaxCooldown)
+        if (enemy.distanceToPlayer <= enemy.AttackRange + 0.1f)
         {
             TryStartMove();
         }
 
-        if (IsActive)
+        if (IsActive && Time.time > LastStartTime + stats.windup)
         {
-            if (Time.time > LastStartTime)
-            {
-                // Play Animation / Partickes
-            }
+            var projectile = Instantiate(projectilePrefab);
+            var projectileComponent = projectile.GetComponent<Projectile>();
+            var spriteComponent = projectile.GetComponentInChildren<SpriteRenderer>();
+            var attackPos = enemy.PlayerPosition() - enemy.transform.position;
+            attackPos.z = 0;
 
-            if (Time.time > LastStartTime + ShootDuration)
-                EndMove();
+            projectile.transform.position = enemy.transform.position;
+            projectile.transform.Rotate(0, 0, Mathf.Atan2(attackPos.y, attackPos.x) * Mathf.Rad2Deg);
+            projectile.transform.localScale = new Vector3(stats.size, stats.size, stats.size);
+            projectile.velocity = stats.speed * attackPos.normalized;
+            projectileComponent.damage = stats.damage;
+            spriteComponent.color = stats.color;
+
+            var lifetime = stats.range / stats.speed;
+            Destroy(projectile.gameObject, lifetime);
+
+            EndMove();
         }
-        ShootCooldown = ShootCooldown + (1 * Time.deltaTime);
-    }
-
-
-    public override void OnStartMove()
-    {
-        ShootCooldown = 0f;
-        atk = true;
-
-    }
-
-    public override void OnEndMove()
-    {
-
     }
 }

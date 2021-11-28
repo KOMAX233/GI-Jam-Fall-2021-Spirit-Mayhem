@@ -5444,8 +5444,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 4905064111150620170}
   cooldown: 0
-  ProjectileDamage: 0
-  projectile: {fileID: 0}
+  projectilePrefab: {fileID: 3424777524327093225, guid: a8b9707e2d541544d9ad7a6146a71d99, type: 3}
+  randomizeStats: 1
+  stats:
+    damage: 0
+    range: 0
+    speed: 0
+    cooldown: 0
+    windup: 0
+    size: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &9026758659650804477
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,6 +5502,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 4905064111150620170}
   cooldown: 0
-  AttackTypes: []
+  EnemyAttacks: []
   MeleeAttack: {fileID: 977732330327580999}
   RangedAttack: {fileID: 1905725035836608930}
