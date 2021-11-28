@@ -23,6 +23,8 @@ public class Spirit : MonoBehaviour
 
     private void Update()
     {
+        if (Player.Instance == null) return;
+
         var toPlayer = Player.Instance.transform.position - transform.position;
         if (!chasingPlayer)
         {

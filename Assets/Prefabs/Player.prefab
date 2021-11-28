@@ -245,6 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1aa2c93bb55459680cc1601bf0506f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 6785048259154328500}
+  worldCamera: {fileID: 0}
   allMoves: []
   allSpirits: []
 --- !u!114 &3355877008863064663
@@ -259,8 +261,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4325816e99784294a9980b141402c441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
+  maxHealth: 500
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6785048258789890001}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: OnPlayerDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!70 &2070139899
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
