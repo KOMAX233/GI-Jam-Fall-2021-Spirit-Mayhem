@@ -1,0 +1,3947 @@
+fileFormatVersion: 2
+guid: a83fcee89192fae43a80fa290f77dd24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4224531519608709416
+    second: Set_E_CityWalls1_0
+  - first:
+      213: 1186790485060117845
+    second: Set_E_CityWalls1_1
+  - first:
+      213: -7588862355885344864
+    second: Set_E_CityWalls1_2
+  - first:
+      213: -3511205002730485179
+    second: Set_E_CityWalls1_3
+  - first:
+      213: 4668273693670449995
+    second: Set_E_CityWalls1_4
+  - first:
+      213: -96476195273895283
+    second: Set_E_CityWalls1_5
+  - first:
+      213: -6288445964286307642
+    second: Set_E_CityWalls1_6
+  - first:
+      213: 4199704218097537984
+    second: Set_E_CityWalls1_7
+  - first:
+      213: 6901236646344934463
+    second: Set_E_CityWalls1_8
+  - first:
+      213: 3746519982738469219
+    second: Set_E_CityWalls1_9
+  - first:
+      213: -6304073879977134318
+    second: Set_E_CityWalls1_10
+  - first:
+      213: 561616118751434814
+    second: Set_E_CityWalls1_11
+  - first:
+      213: -913366902155959777
+    second: Set_E_CityWalls1_12
+  - first:
+      213: -2137431619710394727
+    second: Set_E_CityWalls1_13
+  - first:
+      213: -5534465780976686741
+    second: Set_E_CityWalls1_14
+  - first:
+      213: -8220150610737122921
+    second: Set_E_CityWalls1_15
+  - first:
+      213: 59812452534978141
+    second: Set_E_CityWalls1_16
+  - first:
+      213: -5058031496955632605
+    second: Set_E_CityWalls1_17
+  - first:
+      213: 5072068175924848320
+    second: Set_E_CityWalls1_18
+  - first:
+      213: -4075388060595275531
+    second: Set_E_CityWalls1_19
+  - first:
+      213: 1332801420204779190
+    second: Set_E_CityWalls1_20
+  - first:
+      213: -1888367903239107051
+    second: Set_E_CityWalls1_21
+  - first:
+      213: -6544081060823265906
+    second: Set_E_CityWalls1_22
+  - first:
+      213: -1920466445978935704
+    second: Set_E_CityWalls1_23
+  - first:
+      213: 3436771784310930568
+    second: Set_E_CityWalls1_24
+  - first:
+      213: -6303439907033233528
+    second: Set_E_CityWalls1_25
+  - first:
+      213: 8499807211736524081
+    second: Set_E_CityWalls1_26
+  - first:
+      213: -7689024625722355847
+    second: Set_E_CityWalls1_27
+  - first:
+      213: 5076030336260622057
+    second: Set_E_CityWalls1_28
+  - first:
+      213: -987458866808533667
+    second: Set_E_CityWalls1_29
+  - first:
+      213: 5355171323275784076
+    second: Set_E_CityWalls1_30
+  - first:
+      213: 8590606053918208674
+    second: Set_E_CityWalls1_31
+  - first:
+      213: -2922970300002241817
+    second: Set_E_CityWalls1_32
+  - first:
+      213: 6783032478126962776
+    second: Set_E_CityWalls1_33
+  - first:
+      213: -1696389602161711343
+    second: Set_E_CityWalls1_34
+  - first:
+      213: -8078319233088304783
+    second: Set_E_CityWalls1_35
+  - first:
+      213: 3704562133426866938
+    second: Set_E_CityWalls1_36
+  - first:
+      213: 5218199746119758842
+    second: Set_E_CityWalls1_37
+  - first:
+      213: 4073650445989751923
+    second: Set_E_CityWalls1_38
+  - first:
+      213: 8513348418273443336
+    second: Set_E_CityWalls1_39
+  - first:
+      213: 1278867593386161269
+    second: Set_E_CityWalls1_40
+  - first:
+      213: -908724987692088290
+    second: Set_E_CityWalls1_41
+  - first:
+      213: -361837811164040279
+    second: Set_E_CityWalls1_42
+  - first:
+      213: -5279275742960353012
+    second: Set_E_CityWalls1_43
+  - first:
+      213: 6742109722623680870
+    second: Set_E_CityWalls1_44
+  - first:
+      213: 8670407905277591682
+    second: Set_E_CityWalls1_45
+  - first:
+      213: -3362808910812723845
+    second: Set_E_CityWalls1_46
+  - first:
+      213: 8996401720574032874
+    second: Set_E_CityWalls1_47
+  - first:
+      213: -3876373064023489053
+    second: Set_E_CityWalls1_48
+  - first:
+      213: -1302194708531411398
+    second: Set_E_CityWalls1_49
+  - first:
+      213: 6428575441399660576
+    second: Set_E_CityWalls1_50
+  - first:
+      213: 7480090736172024394
+    second: Set_E_CityWalls1_51
+  - first:
+      213: 3650044697983731773
+    second: Set_E_CityWalls1_52
+  - first:
+      213: 164064159309699253
+    second: Set_E_CityWalls1_53
+  - first:
+      213: 8220990656427886099
+    second: Set_E_CityWalls1_54
+  - first:
+      213: 6873169848775735863
+    second: Set_E_CityWalls1_55
+  - first:
+      213: -5252691516274200526
+    second: Set_E_CityWalls1_56
+  - first:
+      213: -7675778758043678515
+    second: Set_E_CityWalls1_57
+  - first:
+      213: -4221496672379725468
+    second: Set_E_CityWalls1_58
+  - first:
+      213: 6795300334646675102
+    second: Set_E_CityWalls1_59
+  - first:
+      213: -1080973262800829710
+    second: Set_E_CityWalls1_60
+  - first:
+      213: 5565553561827650175
+    second: Set_E_CityWalls1_61
+  - first:
+      213: 8776515415825942236
+    second: Set_E_CityWalls1_62
+  - first:
+      213: 1860420195380454787
+    second: Set_E_CityWalls1_63
+  - first:
+      213: 7082932518062538738
+    second: Set_E_CityWalls1_64
+  - first:
+      213: 8935036411426894605
+    second: Set_E_CityWalls1_65
+  - first:
+      213: -3364000111905671410
+    second: Set_E_CityWalls1_66
+  - first:
+      213: -8426325626026176621
+    second: Set_E_CityWalls1_67
+  - first:
+      213: -8224420686273805564
+    second: Set_E_CityWalls1_68
+  - first:
+      213: -3433581773741797813
+    second: Set_E_CityWalls1_69
+  - first:
+      213: 2404058715329750032
+    second: Set_E_CityWalls1_70
+  - first:
+      213: 8036417810188335734
+    second: Set_E_CityWalls1_71
+  - first:
+      213: 2867006032960138382
+    second: Set_E_CityWalls1_72
+  - first:
+      213: -3803447435384010935
+    second: Set_E_CityWalls1_73
+  - first:
+      213: -7885453323191991465
+    second: Set_E_CityWalls1_74
+  - first:
+      213: 4061296545135088589
+    second: Set_E_CityWalls1_75
+  - first:
+      213: -36947704619050335
+    second: Set_E_CityWalls1_76
+  - first:
+      213: 3452587467648014566
+    second: Set_E_CityWalls1_77
+  - first:
+      213: 5287893860701623007
+    second: Set_E_CityWalls1_78
+  - first:
+      213: 4492634947145612835
+    second: Set_E_CityWalls1_79
+  - first:
+      213: -1004138413793798620
+    second: Set_E_CityWalls1_80
+  - first:
+      213: -2442534108542981163
+    second: Set_E_CityWalls1_81
+  - first:
+      213: 5069577804287102420
+    second: Set_E_CityWalls1_82
+  - first:
+      213: -6080400681296184068
+    second: Set_E_CityWalls1_83
+  - first:
+      213: -6106933551873018650
+    second: Set_E_CityWalls1_84
+  - first:
+      213: 5333486228862866620
+    second: Set_E_CityWalls1_85
+  - first:
+      213: 6715824757722013773
+    second: Set_E_CityWalls1_86
+  - first:
+      213: -7329271036774454796
+    second: Set_E_CityWalls1_87
+  - first:
+      213: 4531961277068997777
+    second: Set_E_CityWalls1_88
+  - first:
+      213: -6000461153068003556
+    second: Set_E_CityWalls1_89
+  - first:
+      213: -6005713101329293403
+    second: Set_E_CityWalls1_90
+  - first:
+      213: -4863599427516200142
+    second: Set_E_CityWalls1_91
+  - first:
+      213: -1316388884080533186
+    second: Set_E_CityWalls1_92
+  - first:
+      213: 8363504043850617480
+    second: Set_E_CityWalls1_93
+  - first:
+      213: -4964257943496163889
+    second: Set_E_CityWalls1_94
+  - first:
+      213: -2276166678595375641
+    second: Set_E_CityWalls1_95
+  - first:
+      213: -856507409351184219
+    second: Set_E_CityWalls1_96
+  - first:
+      213: 2192367895956391509
+    second: Set_E_CityWalls1_97
+  - first:
+      213: -3871099019903213185
+    second: Set_E_CityWalls1_98
+  - first:
+      213: 2128023422215784984
+    second: Set_E_CityWalls1_99
+  - first:
+      213: -4337787567338417173
+    second: Set_E_CityWalls1_100
+  - first:
+      213: 5842036562027019468
+    second: Set_E_CityWalls1_101
+  - first:
+      213: -2183981905744051433
+    second: Set_E_CityWalls1_102
+  - first:
+      213: 3030460280814264351
+    second: Set_E_CityWalls1_103
+  - first:
+      213: -125096265414226811
+    second: Set_E_CityWalls1_104
+  - first:
+      213: -8208535768353471443
+    second: Set_E_CityWalls1_105
+  - first:
+      213: -2894447685918512042
+    second: Set_E_CityWalls1_106
+  - first:
+      213: -4706160149534888089
+    second: Set_E_CityWalls1_107
+  - first:
+      213: -3822108257575016064
+    second: Set_E_CityWalls1_108
+  - first:
+      213: -3642348253789224045
+    second: Set_E_CityWalls1_109
+  - first:
+      213: -3482783718830272437
+    second: Set_E_CityWalls1_110
+  - first:
+      213: 6677083408980425463
+    second: Set_E_CityWalls1_111
+  - first:
+      213: 3185394591065459257
+    second: Set_E_CityWalls1_112
+  - first:
+      213: -7131113578000063286
+    second: Set_E_CityWalls1_113
+  - first:
+      213: -1441058935164679066
+    second: Set_E_CityWalls1_114
+  - first:
+      213: -7555661052919525485
+    second: Set_E_CityWalls1_115
+  - first:
+      213: 8216833917992597797
+    second: Set_E_CityWalls1_116
+  - first:
+      213: 2029268478899217973
+    second: Set_E_CityWalls1_117
+  - first:
+      213: -8445508118340461409
+    second: Set_E_CityWalls1_118
+  - first:
+      213: 1300230806814635033
+    second: Set_E_CityWalls1_119
+  - first:
+      213: 6711072652143807049
+    second: Set_E_CityWalls1_120
+  - first:
+      213: 7586492191718355099
+    second: Set_E_CityWalls1_121
+  - first:
+      213: -8122983099076588346
+    second: Set_E_CityWalls1_122
+  - first:
+      213: 8565938480544436739
+    second: Set_E_CityWalls1_123
+  - first:
+      213: 3769060084077609311
+    second: Set_E_CityWalls1_124
+  - first:
+      213: -7577779327937156423
+    second: Set_E_CityWalls1_125
+  - first:
+      213: 7099717533534540086
+    second: Set_E_CityWalls1_126
+  - first:
+      213: 4686943531607650353
+    second: Set_E_CityWalls1_127
+  - first:
+      213: 6883406429090849830
+    second: Set_E_CityWalls1_128
+  - first:
+      213: -2270576940555147322
+    second: Set_E_CityWalls1_129
+  - first:
+      213: -4053348107569429504
+    second: Set_E_CityWalls1_130
+  - first:
+      213: -4669487469097596284
+    second: Set_E_CityWalls1_131
+  - first:
+      213: 1536529341707282381
+    second: Set_E_CityWalls1_132
+  - first:
+      213: -642449671610727247
+    second: Set_E_CityWalls1_133
+  - first:
+      213: -3830499819696989526
+    second: Set_E_CityWalls1_134
+  - first:
+      213: 7812980265002899862
+    second: Set_E_CityWalls1_135
+  - first:
+      213: 6180469828274636870
+    second: Set_E_CityWalls1_136
+  - first:
+      213: -3373590346709637053
+    second: Set_E_CityWalls1_137
+  - first:
+      213: 8007909060977526304
+    second: Set_E_CityWalls1_138
+  - first:
+      213: 5472225603266984105
+    second: Set_E_CityWalls1_139
+  - first:
+      213: -8858681320395354952
+    second: Set_E_CityWalls1_140
+  - first:
+      213: -7980587452448718620
+    second: Set_E_CityWalls1_141
+  - first:
+      213: -3520467960152732595
+    second: Set_E_CityWalls1_142
+  - first:
+      213: 6230662758001938481
+    second: Set_E_CityWalls1_143
+  - first:
+      213: 6590441374394695703
+    second: Set_E_CityWalls1_144
+  - first:
+      213: 8551476300493927494
+    second: Set_E_CityWalls1_145
+  - first:
+      213: -1343618826746455517
+    second: Set_E_CityWalls1_146
+  - first:
+      213: 8516512549726822476
+    second: Set_E_CityWalls1_147
+  - first:
+      213: -5605727149354139071
+    second: Set_E_CityWalls1_148
+  - first:
+      213: 3191813722691637497
+    second: Set_E_CityWalls1_149
+  - first:
+      213: -2786065205337014956
+    second: Set_E_CityWalls1_150
+  - first:
+      213: -4655857723699926971
+    second: Set_E_CityWalls1_151
+  - first:
+      213: 2338855939061899888
+    second: Set_E_CityWalls1_152
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49229ee0aeed6624ba14cb01574bd483
+      internalID: 4224531519608709416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cd2b637a5637a4b89e91af0a8621dc
+      internalID: 1186790485060117845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d004d44a9e4b294b9691398ffb8d54c
+      internalID: -7588862355885344864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8e983eb358e42449bdc040f1977e1a
+      internalID: -3511205002730485179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bf26935e8d8d14b808e37dfc23d71d
+      internalID: 4668273693670449995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14374e81f97bf6f4ea43366e93171c40
+      internalID: -96476195273895283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bade884d29e3a47b45dd24ee521df1
+      internalID: -6288445964286307642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7e432a7f4044e48b9e72cd5a3f9097
+      internalID: 4199704218097537984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cf04fd740bda34b8620bfb2def03d9
+      internalID: 6901236646344934463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df94359abdee54448b0f5ce47ea8fe8
+      internalID: 3746519982738469219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76064a179f634034dbedc7f6cefb96dc
+      internalID: -6304073879977134318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f9c7303c9ddc4b8d985e7c829991e
+      internalID: 561616118751434814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38634a22e16d7814eb6811e26ea85193
+      internalID: -913366902155959777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bf158bbb9c8464490f5f56df14d621
+      internalID: -2137431619710394727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd6b554c900f443900c6ffd83cee2a
+      internalID: -5534465780976686741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1450780c142214aa11a71cd8b50cc5
+      internalID: -8220150610737122921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb83967469d48fa4e86d7cb9a5973f14
+      internalID: 59812452534978141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f75e88bcd1b49044bc610f32d4ebe9c
+      internalID: -5058031496955632605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ef4adf93b84b46bf90a1bb5f60691
+      internalID: 5072068175924848320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3036737a0ccbee4459ee47d7de09529c
+      internalID: -4075388060595275531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44572bbe55a5b864e8099d9387de0d05
+      internalID: 1332801420204779190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b0a31f6fd35a84287f800c28635765
+      internalID: -1888367903239107051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8695cfa3c65c62a4f80fcec811a453f6
+      internalID: -6544081060823265906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce06f65bd35267341b0ceaa304b953c0
+      internalID: -1920466445978935704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f2fdc02bacdf54cadcbf616f33d65f
+      internalID: 3436771784310930568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2b2e9a0ca2ed343907828f51e0cbce
+      internalID: -6303439907033233528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ca63d0428aa0d47a86597f0849e4d5
+      internalID: 8499807211736524081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad36f2d69313804e925c9d2df0408b5
+      internalID: -7689024625722355847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c69103da2f83f4bbaae0f5403346d8
+      internalID: 5076030336260622057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2da923c2bed02c4c8732784b4fc2cd0
+      internalID: -987458866808533667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b800f65797c4a1242b32827facda5947
+      internalID: 5355171323275784076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6af128f8d3f83e40b73c6af0a2e2417
+      internalID: 8590606053918208674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b749d42480f944829595f51bb681e
+      internalID: -2922970300002241817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925ce0851ffa4e443b71557dd25e7e94
+      internalID: 6783032478126962776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473f65c267f54ca4ea321d31609762fb
+      internalID: -1696389602161711343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17e94e5f618cb943a151006b14201b1
+      internalID: -8078319233088304783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2b5f3f53e88684284a7323497528e1
+      internalID: 3704562133426866938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9854dd91574094685de09113377c5c
+      internalID: 5218199746119758842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e34ba7729eac7f4f927e5465854181f
+      internalID: 4073650445989751923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d5314c50d8c3409101b95293bd1de
+      internalID: 8513348418273443336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f27365ed49cb94589e0600f3236052
+      internalID: 1278867593386161269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5147f7836b0e5904eac441001eda14b6
+      internalID: -908724987692088290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c063e166e796c745abb1fec138dc8ce
+      internalID: -361837811164040279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2edc628c010404b95b812454687c6d
+      internalID: -5279275742960353012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2e50af84f2cde42bdac7e8e1a7e7f3
+      internalID: 6742109722623680870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a727cb7cfc462e642bcadd0770ab4784
+      internalID: 8670407905277591682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cb07d2a2491b847bc16760f2d223d4
+      internalID: -3362808910812723845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6aa37916452a34488c1b1e68393b15
+      internalID: 8996401720574032874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c860f7cc6b573d6468f81df696a69f9e
+      internalID: -3876373064023489053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16151c899709096499691bd3fa6942f9
+      internalID: -1302194708531411398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3720f3cd675ecb74aad5d8694ae64fd7
+      internalID: 6428575441399660576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134996095b68a3f4dac32d9562d76e05
+      internalID: 7480090736172024394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e99b06268990544f8fe4d86e5816864
+      internalID: 3650044697983731773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5a5d701241c3749b43707668b362d4
+      internalID: 164064159309699253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03671930300e7e2448a42c6388e17d78
+      internalID: 8220990656427886099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43ee423a270b10489193c0ee9a47457
+      internalID: 6873169848775735863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345752b02a376d149ad2efa3a3dee8d9
+      internalID: -5252691516274200526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71150921e58e34428dcda24a86d17b7
+      internalID: -7675778758043678515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55ddf34a3e940348a0b7892de84cab0
+      internalID: -4221496672379725468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a958b60bd2c3cd45afdbfee5b570c10
+      internalID: 6795300334646675102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5292dcb424a610c41b8b23ab2434f1e4
+      internalID: -1080973262800829710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834f331941a039343b2f9cac238b9737
+      internalID: 5565553561827650175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b889447343940f246a3f9ffe7388493d
+      internalID: 8776515415825942236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10396c369da4f024a9fa1a519647ad40
+      internalID: 1860420195380454787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_64
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6e9e52378e50b4fa9f2ee8236124c3
+      internalID: 7082932518062538738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36966ae2314e1ff4298db56743a1cc0a
+      internalID: 8935036411426894605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34186627c85c15e47a93da1d0ca3741c
+      internalID: -3364000111905671410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e10e6e8e52382448215514b490287f
+      internalID: -8426325626026176621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_68
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b87d950a18d741429ff8c6a7ed48f44
+      internalID: -8224420686273805564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_69
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c81adb5674c5469b64c5a73cf2dcc
+      internalID: -3433581773741797813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_70
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423d72c60043c2749a5dae1ab3c15fe1
+      internalID: 2404058715329750032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c5bbb27b562d4fa73d2d704823cd7
+      internalID: 8036417810188335734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c377dd21b6d09341b5c46de0a24b2a2
+      internalID: 2867006032960138382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd04e3c03ce85cd44a0a43b04a4f40de
+      internalID: -3803447435384010935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49535302e916ee840ac9caee90532602
+      internalID: -7885453323191991465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8251227d2ddc6e24184c5a4c25b515d6
+      internalID: 4061296545135088589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_76
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fff763501e5f14abbf00a1fd24e52f
+      internalID: -36947704619050335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cfd722401cc5c42a67ca914582c10b
+      internalID: 3452587467648014566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_78
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f94248d6daf6e4cb4eac9fb8b27160
+      internalID: 5287893860701623007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc16a3061c30954a9794bd1febc3d4c
+      internalID: 4492634947145612835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4916fc10411f3bb4d96522a1e352a339
+      internalID: -1004138413793798620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b466c4a8ff38604ead3790783de05b7
+      internalID: -2442534108542981163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_82
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fffc8e071e5504f972a1ff7c42cbb2
+      internalID: 5069577804287102420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bc66714d68d1d4fad42e4fa5fa0a00
+      internalID: -6080400681296184068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ef00b6ed61ae42acef3406b684102
+      internalID: -6106933551873018650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5dfe0c028cfdf4b83c415214148f8a
+      internalID: 5333486228862866620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_86
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91928853481de54695e3127560bb309
+      internalID: 6715824757722013773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_87
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fff6be22e6ee24f87bce3fd8fbc7b3
+      internalID: -7329271036774454796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_88
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5123aa8f54efb9347aace2bec0bfe837
+      internalID: 4531961277068997777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893bea1da69e2b240b140be8506a9501
+      internalID: -6000461153068003556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c7ee8430b7a0d46b76fbf343bc47f0
+      internalID: -6005713101329293403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ce6bd8a6c2bda46a5b7ad9d0257a10
+      internalID: -4863599427516200142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_92
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92296fac7a9f16489299b14ec376d9e
+      internalID: -1316388884080533186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb57c4ab22cd8d142bcbe5be64bc0329
+      internalID: 8363504043850617480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f7e3a58014ea34f9aaf0fc45dbac0b
+      internalID: -4964257943496163889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c340528c8014e794fba4a0bddd662649
+      internalID: -2276166678595375641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cce522d7a1b8c45971cfec3a723a53
+      internalID: -856507409351184219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe37fb56b1df044a040b87c4fe8bb1
+      internalID: 2192367895956391509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_98
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe303ea33da35cd4b8cd6eaada8f85ff
+      internalID: -3871099019903213185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40234fb46d7c45144a19b30fd0bef860
+      internalID: 2128023422215784984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_100
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7233f4c9be14ab4481ee45359cc9033
+      internalID: -4337787567338417173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_101
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581da6bd5f623bc4fb06989a5c1f1df9
+      internalID: 5842036562027019468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9d8d55c593346488aa7eb98afc3cb7
+      internalID: -2183981905744051433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3565004fc2d2f8442b3a7468151355cf
+      internalID: 3030460280814264351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_104
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02691d8b1239d694e856c97b015e2c86
+      internalID: -125096265414226811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f5c827cd26d3f4cbfdc3a8120bbb37
+      internalID: -8208535768353471443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_106
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342bdfecc4d68234e827fc97480cb35f
+      internalID: -2894447685918512042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952b59c51e08b9d4bac8389b6e27d32a
+      internalID: -4706160149534888089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_108
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494992edb32978479518b88e0b930f2
+      internalID: -3822108257575016064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1525c0611f49d2d4797e64fc13e6f8cb
+      internalID: -3642348253789224045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_110
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f63986dd445b04083679661b2bff35
+      internalID: -3482783718830272437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790200ec1433c044185faf734c814892
+      internalID: 6677083408980425463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_112
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d174d2ad370317843b5df5dfb54ff099
+      internalID: 3185394591065459257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48369571a23897340a3e7b233d8ed2a3
+      internalID: -7131113578000063286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae5f5a44e5c67c439b59d8394d692f3
+      internalID: -1441058935164679066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcbafabdd105174f9802b280f7be5d9
+      internalID: -7555661052919525485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43f8b43b0bbe6e48b7cd121a26a39ff
+      internalID: 8216833917992597797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_117
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75de5b8ed9ea89e449f9511272dbd084
+      internalID: 2029268478899217973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_118
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f8fcd3396cedb4e92a7a92f22276f5
+      internalID: -8445508118340461409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ef7860b3d3f0148aef385965f55043
+      internalID: 1300230806814635033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545b0ea2b4056ec41857f598f42132e5
+      internalID: 6711072652143807049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90a51c34fbd88e44a5b6ed221fa3514
+      internalID: 7586492191718355099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_122
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fb2d8a65ae81e4384bac7ecd20640e
+      internalID: -8122983099076588346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e5b1281a5b61d468cac7ff8d95c665
+      internalID: 8565938480544436739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3681d61929084c740b6b50ba2891b65c
+      internalID: 3769060084077609311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f8e182ac984744928537dca5f816f
+      internalID: -7577779327937156423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_126
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19601ef8f34caed4a827b28d0741a564
+      internalID: 7099717533534540086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bde92b93abd0c45b931115476d6c28
+      internalID: 4686943531607650353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a6b087f3217d04e8a8b0e016ac540c
+      internalID: 6883406429090849830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b30d7bc72a14b42a9963657657cbd5
+      internalID: -2270576940555147322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_130
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276e5573c7c46714db12325c526ad639
+      internalID: -4053348107569429504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6300853f73eb0fc44abead8006af2931
+      internalID: -4669487469097596284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e4a7ef4dd6f8c44b671992f52badd6
+      internalID: 1536529341707282381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_133
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73819a681788e643bd72fdd52ea7cdb
+      internalID: -642449671610727247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_134
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5317221df01dcc44a10330d1b74c19e
+      internalID: -3830499819696989526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_135
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d3d93fd4b9d041a3f20d3743b1eca
+      internalID: 7812980265002899862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_136
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f40eda8761ca4fadd0ca9d927adc2
+      internalID: 6180469828274636870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9f2439989516d48a045045b6eba92a
+      internalID: -3373590346709637053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_138
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3640156f65ec51249a9d822e62184f99
+      internalID: 8007909060977526304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dd77adf3f806843851bf10ce93aff9
+      internalID: 5472225603266984105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_140
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd44b152158194aa180532b22d75a9
+      internalID: -8858681320395354952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7e9d67ce549d047bdcf33d9e816bd7
+      internalID: -7980587452448718620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefde5bcdbbcde54ebd2b8bb3382f4b3
+      internalID: -3520467960152732595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_143
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb5b393bd80e2a4e8d8652d6a261e97
+      internalID: 6230662758001938481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_144
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c282d0f00d7a1b44b6d966017775257
+      internalID: 6590441374394695703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_145
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156e19c43c6587741b3ebef713490c53
+      internalID: 8551476300493927494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf1a78e5da549046b853842d8adca61
+      internalID: -1343618826746455517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ff6d5b24bc4094a90e8454ae023789
+      internalID: 8516512549726822476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_148
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df797633ffdae94d9ae51d9f9da7fbb
+      internalID: -5605727149354139071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_149
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c62673922660454d82b79db2066e48a
+      internalID: 3191813722691637497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_150
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21106ca3dde2a4b4894e44328d232809
+      internalID: -2786065205337014956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632f5397e95aacc4ba509df4da6e4189
+      internalID: -4655857723699926971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_E_CityWalls1_152
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dbd9c59046d864f90dd9d9f523255a
+      internalID: 2338855939061899888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Set_E_CityWalls1_13: -2137431619710394727
+      Set_E_CityWalls1_75: 4061296545135088589
+      Set_E_CityWalls1_16: 59812452534978141
+      Set_E_CityWalls1_63: 1860420195380454787
+      Set_E_CityWalls1_98: -3871099019903213185
+      Set_E_CityWalls1_3: -3511205002730485179
+      Set_E_CityWalls1_11: 561616118751434814
+      Set_E_CityWalls1_125: -7577779327937156423
+      Set_E_CityWalls1_149: 3191813722691637497
+      Set_E_CityWalls1_84: -6106933551873018650
+      Set_E_CityWalls1_96: -856507409351184219
+      Set_E_CityWalls1_67: -8426325626026176621
+      Set_E_CityWalls1_20: 1332801420204779190
+      Set_E_CityWalls1_41: -908724987692088290
+      Set_E_CityWalls1_85: 5333486228862866620
+      Set_E_CityWalls1_31: 8590606053918208674
+      Set_E_CityWalls1_50: 6428575441399660576
+      Set_E_CityWalls1_87: -7329271036774454796
+      Set_E_CityWalls1_34: -1696389602161711343
+      Set_E_CityWalls1_1: 1186790485060117845
+      Set_E_CityWalls1_57: -7675778758043678515
+      Set_E_CityWalls1_121: 7586492191718355099
+      Set_E_CityWalls1_132: 1536529341707282381
+      Set_E_CityWalls1_127: 4686943531607650353
+      Set_E_CityWalls1_81: -2442534108542981163
+      Set_E_CityWalls1_118: -8445508118340461409
+      Set_E_CityWalls1_88: 4531961277068997777
+      Set_E_CityWalls1_6: -6288445964286307642
+      Set_E_CityWalls1_15: -8220150610737122921
+      Set_E_CityWalls1_108: -3822108257575016064
+      Set_E_CityWalls1_52: 3650044697983731773
+      Set_E_CityWalls1_23: -1920466445978935704
+      Set_E_CityWalls1_24: 3436771784310930568
+      Set_E_CityWalls1_152: 2338855939061899888
+      Set_E_CityWalls1_136: 6180469828274636870
+      Set_E_CityWalls1_46: -3362808910812723845
+      Set_E_CityWalls1_47: 8996401720574032874
+      Set_E_CityWalls1_27: -7689024625722355847
+      Set_E_CityWalls1_36: 3704562133426866938
+      Set_E_CityWalls1_103: 3030460280814264351
+      Set_E_CityWalls1_115: -7555661052919525485
+      Set_E_CityWalls1_110: -3482783718830272437
+      Set_E_CityWalls1_58: -4221496672379725468
+      Set_E_CityWalls1_83: -6080400681296184068
+      Set_E_CityWalls1_112: 3185394591065459257
+      Set_E_CityWalls1_100: -4337787567338417173
+      Set_E_CityWalls1_130: -4053348107569429504
+      Set_E_CityWalls1_97: 2192367895956391509
+      Set_E_CityWalls1_64: 7082932518062538738
+      Set_E_CityWalls1_56: -5252691516274200526
+      Set_E_CityWalls1_79: 4492634947145612835
+      Set_E_CityWalls1_143: 6230662758001938481
+      Set_E_CityWalls1_7: 4199704218097537984
+      Set_E_CityWalls1_129: -2270576940555147322
+      Set_E_CityWalls1_53: 164064159309699253
+      Set_E_CityWalls1_120: 6711072652143807049
+      Set_E_CityWalls1_72: 2867006032960138382
+      Set_E_CityWalls1_139: 5472225603266984105
+      Set_E_CityWalls1_69: -3433581773741797813
+      Set_E_CityWalls1_144: 6590441374394695703
+      Set_E_CityWalls1_9: 3746519982738469219
+      Set_E_CityWalls1_140: -8858681320395354952
+      Set_E_CityWalls1_128: 6883406429090849830
+      Set_E_CityWalls1_77: 3452587467648014566
+      Set_E_CityWalls1_147: 8516512549726822476
+      Set_E_CityWalls1_39: 8513348418273443336
+      Set_E_CityWalls1_124: 3769060084077609311
+      Set_E_CityWalls1_107: -4706160149534888089
+      Set_E_CityWalls1_51: 7480090736172024394
+      Set_E_CityWalls1_151: -4655857723699926971
+      Set_E_CityWalls1_60: -1080973262800829710
+      Set_E_CityWalls1_102: -2183981905744051433
+      Set_E_CityWalls1_21: -1888367903239107051
+      Set_E_CityWalls1_68: -8224420686273805564
+      Set_E_CityWalls1_134: -3830499819696989526
+      Set_E_CityWalls1_62: 8776515415825942236
+      Set_E_CityWalls1_38: 4073650445989751923
+      Set_E_CityWalls1_111: 6677083408980425463
+      Set_E_CityWalls1_123: 8565938480544436739
+      Set_E_CityWalls1_44: 6742109722623680870
+      Set_E_CityWalls1_150: -2786065205337014956
+      Set_E_CityWalls1_33: 6783032478126962776
+      Set_E_CityWalls1_40: 1278867593386161269
+      Set_E_CityWalls1_30: 5355171323275784076
+      Set_E_CityWalls1_66: -3364000111905671410
+      Set_E_CityWalls1_99: 2128023422215784984
+      Set_E_CityWalls1_8: 6901236646344934463
+      Set_E_CityWalls1_5: -96476195273895283
+      Set_E_CityWalls1_17: -5058031496955632605
+      Set_E_CityWalls1_65: 8935036411426894605
+      Set_E_CityWalls1_105: -8208535768353471443
+      Set_E_CityWalls1_71: 8036417810188335734
+      Set_E_CityWalls1_114: -1441058935164679066
+      Set_E_CityWalls1_142: -3520467960152732595
+      Set_E_CityWalls1_73: -3803447435384010935
+      Set_E_CityWalls1_14: -5534465780976686741
+      Set_E_CityWalls1_76: -36947704619050335
+      Set_E_CityWalls1_90: -6005713101329293403
+      Set_E_CityWalls1_32: -2922970300002241817
+      Set_E_CityWalls1_101: 5842036562027019468
+      Set_E_CityWalls1_135: 7812980265002899862
+      Set_E_CityWalls1_93: 8363504043850617480
+      Set_E_CityWalls1_146: -1343618826746455517
+      Set_E_CityWalls1_116: 8216833917992597797
+      Set_E_CityWalls1_29: -987458866808533667
+      Set_E_CityWalls1_54: 8220990656427886099
+      Set_E_CityWalls1_86: 6715824757722013773
+      Set_E_CityWalls1_141: -7980587452448718620
+      Set_E_CityWalls1_2: -7588862355885344864
+      Set_E_CityWalls1_12: -913366902155959777
+      Set_E_CityWalls1_55: 6873169848775735863
+      Set_E_CityWalls1_126: 7099717533534540086
+      Set_E_CityWalls1_28: 5076030336260622057
+      Set_E_CityWalls1_109: -3642348253789224045
+      Set_E_CityWalls1_91: -4863599427516200142
+      Set_E_CityWalls1_37: 5218199746119758842
+      Set_E_CityWalls1_61: 5565553561827650175
+      Set_E_CityWalls1_95: -2276166678595375641
+      Set_E_CityWalls1_133: -642449671610727247
+      Set_E_CityWalls1_82: 5069577804287102420
+      Set_E_CityWalls1_94: -4964257943496163889
+      Set_E_CityWalls1_145: 8551476300493927494
+      Set_E_CityWalls1_48: -3876373064023489053
+      Set_E_CityWalls1_4: 4668273693670449995
+      Set_E_CityWalls1_0: 4224531519608709416
+      Set_E_CityWalls1_26: 8499807211736524081
+      Set_E_CityWalls1_42: -361837811164040279
+      Set_E_CityWalls1_92: -1316388884080533186
+      Set_E_CityWalls1_89: -6000461153068003556
+      Set_E_CityWalls1_59: 6795300334646675102
+      Set_E_CityWalls1_25: -6303439907033233528
+      Set_E_CityWalls1_106: -2894447685918512042
+      Set_E_CityWalls1_119: 1300230806814635033
+      Set_E_CityWalls1_19: -4075388060595275531
+      Set_E_CityWalls1_70: 2404058715329750032
+      Set_E_CityWalls1_74: -7885453323191991465
+      Set_E_CityWalls1_104: -125096265414226811
+      Set_E_CityWalls1_117: 2029268478899217973
+      Set_E_CityWalls1_78: 5287893860701623007
+      Set_E_CityWalls1_22: -6544081060823265906
+      Set_E_CityWalls1_18: 5072068175924848320
+      Set_E_CityWalls1_10: -6304073879977134318
+      Set_E_CityWalls1_148: -5605727149354139071
+      Set_E_CityWalls1_49: -1302194708531411398
+      Set_E_CityWalls1_45: 8670407905277591682
+      Set_E_CityWalls1_113: -7131113578000063286
+      Set_E_CityWalls1_35: -8078319233088304783
+      Set_E_CityWalls1_131: -4669487469097596284
+      Set_E_CityWalls1_43: -5279275742960353012
+      Set_E_CityWalls1_80: -1004138413793798620
+      Set_E_CityWalls1_122: -8122983099076588346
+      Set_E_CityWalls1_138: 8007909060977526304
+      Set_E_CityWalls1_137: -3373590346709637053
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5647 @@
+fileFormatVersion: 2
+guid: 8ed8248b00a55b140880cc359dbaeab4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5330857187087599215
+    second: Set_A_Mines1_0
+  - first:
+      213: -2848445346023348079
+    second: Set_A_Mines1_1
+  - first:
+      213: -8702970240341507937
+    second: Set_A_Mines1_2
+  - first:
+      213: 4578327339108203529
+    second: Set_A_Mines1_3
+  - first:
+      213: -4037950738230077169
+    second: Set_A_Mines1_4
+  - first:
+      213: 4128640478404929385
+    second: Set_A_Mines1_5
+  - first:
+      213: 4016392095105529421
+    second: Set_A_Mines1_6
+  - first:
+      213: 7625772116302883928
+    second: Set_A_Mines1_7
+  - first:
+      213: 6659497923541046952
+    second: Set_A_Mines1_8
+  - first:
+      213: 8764638697350744719
+    second: Set_A_Mines1_9
+  - first:
+      213: 2865163307685799188
+    second: Set_A_Mines1_10
+  - first:
+      213: 765272140689785888
+    second: Set_A_Mines1_11
+  - first:
+      213: -3885271486080753474
+    second: Set_A_Mines1_12
+  - first:
+      213: -5978850824859083567
+    second: Set_A_Mines1_13
+  - first:
+      213: 6846390427391945711
+    second: Set_A_Mines1_14
+  - first:
+      213: -7956779181370697750
+    second: Set_A_Mines1_15
+  - first:
+      213: 3610847349951578459
+    second: Set_A_Mines1_16
+  - first:
+      213: 6574312658283598827
+    second: Set_A_Mines1_17
+  - first:
+      213: -6493747941240282758
+    second: Set_A_Mines1_18
+  - first:
+      213: -5508059923955750765
+    second: Set_A_Mines1_19
+  - first:
+      213: -8140758968288919068
+    second: Set_A_Mines1_20
+  - first:
+      213: -7459363121612819340
+    second: Set_A_Mines1_21
+  - first:
+      213: -4191893829261872557
+    second: Set_A_Mines1_22
+  - first:
+      213: 3665584661243736728
+    second: Set_A_Mines1_23
+  - first:
+      213: -6227248937272823431
+    second: Set_A_Mines1_24
+  - first:
+      213: -5933424431178314301
+    second: Set_A_Mines1_25
+  - first:
+      213: -1760760036902119650
+    second: Set_A_Mines1_26
+  - first:
+      213: -4884469075213902049
+    second: Set_A_Mines1_27
+  - first:
+      213: 8251612697740712569
+    second: Set_A_Mines1_28
+  - first:
+      213: -7936522908801103515
+    second: Set_A_Mines1_29
+  - first:
+      213: -1539173728167053820
+    second: Set_A_Mines1_30
+  - first:
+      213: -584754714886632444
+    second: Set_A_Mines1_31
+  - first:
+      213: -3843239353869628854
+    second: Set_A_Mines1_32
+  - first:
+      213: 4437687369078993405
+    second: Set_A_Mines1_33
+  - first:
+      213: 5331364467741112145
+    second: Set_A_Mines1_34
+  - first:
+      213: -3327796201339909162
+    second: Set_A_Mines1_35
+  - first:
+      213: -1855647805466665873
+    second: Set_A_Mines1_36
+  - first:
+      213: 8274010298365388046
+    second: Set_A_Mines1_37
+  - first:
+      213: -9085718242017566525
+    second: Set_A_Mines1_38
+  - first:
+      213: 444790201280049069
+    second: Set_A_Mines1_39
+  - first:
+      213: 498834374205337040
+    second: Set_A_Mines1_40
+  - first:
+      213: -4770698121040638431
+    second: Set_A_Mines1_41
+  - first:
+      213: -2109728865649402424
+    second: Set_A_Mines1_42
+  - first:
+      213: -5413837333106411875
+    second: Set_A_Mines1_43
+  - first:
+      213: -6683470430515213635
+    second: Set_A_Mines1_44
+  - first:
+      213: -7694212962445074277
+    second: Set_A_Mines1_45
+  - first:
+      213: 8826484401467990965
+    second: Set_A_Mines1_46
+  - first:
+      213: -8020985740133127434
+    second: Set_A_Mines1_47
+  - first:
+      213: 2497504494037962069
+    second: Set_A_Mines1_48
+  - first:
+      213: 617373171448768093
+    second: Set_A_Mines1_49
+  - first:
+      213: -1519578694725573005
+    second: Set_A_Mines1_50
+  - first:
+      213: 4576135782498771150
+    second: Set_A_Mines1_51
+  - first:
+      213: -6795978247706107764
+    second: Set_A_Mines1_52
+  - first:
+      213: 5446179354815794045
+    second: Set_A_Mines1_53
+  - first:
+      213: -981335120956404467
+    second: Set_A_Mines1_54
+  - first:
+      213: -5653270188001672483
+    second: Set_A_Mines1_55
+  - first:
+      213: -2752585419246853450
+    second: Set_A_Mines1_56
+  - first:
+      213: 8726780676924630049
+    second: Set_A_Mines1_57
+  - first:
+      213: 3404670076261045871
+    second: Set_A_Mines1_58
+  - first:
+      213: -238072251407761805
+    second: Set_A_Mines1_59
+  - first:
+      213: -3988558383043926838
+    second: Set_A_Mines1_60
+  - first:
+      213: -6045987485753765749
+    second: Set_A_Mines1_61
+  - first:
+      213: -5022377377421189382
+    second: Set_A_Mines1_62
+  - first:
+      213: -1177374944028815584
+    second: Set_A_Mines1_63
+  - first:
+      213: 3166580176556202256
+    second: Set_A_Mines1_64
+  - first:
+      213: -315221166662111122
+    second: Set_A_Mines1_65
+  - first:
+      213: 1406028644846517245
+    second: Set_A_Mines1_66
+  - first:
+      213: 2706106330815844149
+    second: Set_A_Mines1_67
+  - first:
+      213: -8740131567328506173
+    second: Set_A_Mines1_68
+  - first:
+      213: -7626394571038852461
+    second: Set_A_Mines1_69
+  - first:
+      213: 412909093878995534
+    second: Set_A_Mines1_70
+  - first:
+      213: 5333948131186809712
+    second: Set_A_Mines1_71
+  - first:
+      213: -4157138418185177706
+    second: Set_A_Mines1_72
+  - first:
+      213: -4371615936515716796
+    second: Set_A_Mines1_73
+  - first:
+      213: 7512086605509865723
+    second: Set_A_Mines1_74
+  - first:
+      213: 689168237962275139
+    second: Set_A_Mines1_75
+  - first:
+      213: -4477386327105184957
+    second: Set_A_Mines1_76
+  - first:
+      213: -4598840391584313499
+    second: Set_A_Mines1_77
+  - first:
+      213: -5279738470011262467
+    second: Set_A_Mines1_78
+  - first:
+      213: 3451155878332921206
+    second: Set_A_Mines1_79
+  - first:
+      213: 9013308319924150005
+    second: Set_A_Mines1_80
+  - first:
+      213: -102729375287579955
+    second: Set_A_Mines1_81
+  - first:
+      213: -3230993974034240130
+    second: Set_A_Mines1_82
+  - first:
+      213: 8210170990189311574
+    second: Set_A_Mines1_83
+  - first:
+      213: 3908279990617980603
+    second: Set_A_Mines1_84
+  - first:
+      213: -7749994024617398154
+    second: Set_A_Mines1_85
+  - first:
+      213: 1605611962094458098
+    second: Set_A_Mines1_86
+  - first:
+      213: 1626179123570796717
+    second: Set_A_Mines1_87
+  - first:
+      213: -8730279337360723716
+    second: Set_A_Mines1_88
+  - first:
+      213: -4157672972968406224
+    second: Set_A_Mines1_89
+  - first:
+      213: 3488964098796104251
+    second: Set_A_Mines1_90
+  - first:
+      213: -6737575635493850205
+    second: Set_A_Mines1_91
+  - first:
+      213: 2759674533472193890
+    second: Set_A_Mines1_92
+  - first:
+      213: -4971838139012282608
+    second: Set_A_Mines1_93
+  - first:
+      213: -7677253172764518785
+    second: Set_A_Mines1_94
+  - first:
+      213: -2258706748786061352
+    second: Set_A_Mines1_95
+  - first:
+      213: 4821322767305096081
+    second: Set_A_Mines1_96
+  - first:
+      213: 337931751647054179
+    second: Set_A_Mines1_97
+  - first:
+      213: -6639039595624098453
+    second: Set_A_Mines1_98
+  - first:
+      213: 2527861424261190872
+    second: Set_A_Mines1_99
+  - first:
+      213: -3911664067667868171
+    second: Set_A_Mines1_100
+  - first:
+      213: -9067410080569991455
+    second: Set_A_Mines1_101
+  - first:
+      213: 2887741147277062357
+    second: Set_A_Mines1_102
+  - first:
+      213: 1509289361099393488
+    second: Set_A_Mines1_103
+  - first:
+      213: -7257687107306872466
+    second: Set_A_Mines1_104
+  - first:
+      213: 1549000609347685105
+    second: Set_A_Mines1_105
+  - first:
+      213: -3744506222218425359
+    second: Set_A_Mines1_106
+  - first:
+      213: -7846200649547105831
+    second: Set_A_Mines1_107
+  - first:
+      213: -166369906647731261
+    second: Set_A_Mines1_108
+  - first:
+      213: 5709973221739568137
+    second: Set_A_Mines1_109
+  - first:
+      213: 642616288757303980
+    second: Set_A_Mines1_110
+  - first:
+      213: 5880833942638918959
+    second: Set_A_Mines1_111
+  - first:
+      213: 4499088148158644940
+    second: Set_A_Mines1_112
+  - first:
+      213: -1950524515097461818
+    second: Set_A_Mines1_113
+  - first:
+      213: -4204196354228883844
+    second: Set_A_Mines1_114
+  - first:
+      213: 9046065390853880065
+    second: Set_A_Mines1_115
+  - first:
+      213: 6595510332449155923
+    second: Set_A_Mines1_116
+  - first:
+      213: 8884002323162416623
+    second: Set_A_Mines1_117
+  - first:
+      213: -6033964521914797181
+    second: Set_A_Mines1_118
+  - first:
+      213: -8069815714590925856
+    second: Set_A_Mines1_119
+  - first:
+      213: 4684383573421310218
+    second: Set_A_Mines1_120
+  - first:
+      213: -2366069472672884039
+    second: Set_A_Mines1_121
+  - first:
+      213: 2143236652026355734
+    second: Set_A_Mines1_122
+  - first:
+      213: -6493537978443144806
+    second: Set_A_Mines1_123
+  - first:
+      213: 2027556864940829357
+    second: Set_A_Mines1_124
+  - first:
+      213: 7914397989008661383
+    second: Set_A_Mines1_125
+  - first:
+      213: 3877436745135198293
+    second: Set_A_Mines1_126
+  - first:
+      213: -807164368750356743
+    second: Set_A_Mines1_127
+  - first:
+      213: 3642169641346726698
+    second: Set_A_Mines1_128
+  - first:
+      213: 2407976235382508975
+    second: Set_A_Mines1_129
+  - first:
+      213: -339026489939095906
+    second: Set_A_Mines1_130
+  - first:
+      213: -1851377811027045518
+    second: Set_A_Mines1_131
+  - first:
+      213: -1613058891969553733
+    second: Set_A_Mines1_132
+  - first:
+      213: 4758413892311077347
+    second: Set_A_Mines1_133
+  - first:
+      213: 2917044413962304313
+    second: Set_A_Mines1_134
+  - first:
+      213: 5226705728758355767
+    second: Set_A_Mines1_135
+  - first:
+      213: 2464390502411957453
+    second: Set_A_Mines1_136
+  - first:
+      213: -1268141011302853003
+    second: Set_A_Mines1_137
+  - first:
+      213: -2705772858637470653
+    second: Set_A_Mines1_138
+  - first:
+      213: -4019518640291050936
+    second: Set_A_Mines1_139
+  - first:
+      213: 3145284244053902961
+    second: Set_A_Mines1_140
+  - first:
+      213: 7975356893893435546
+    second: Set_A_Mines1_141
+  - first:
+      213: 4972610097851464178
+    second: Set_A_Mines1_142
+  - first:
+      213: -8842544947524858100
+    second: Set_A_Mines1_143
+  - first:
+      213: 7975047672200163307
+    second: Set_A_Mines1_144
+  - first:
+      213: -7346152750527553475
+    second: Set_A_Mines1_145
+  - first:
+      213: -8352614000562049536
+    second: Set_A_Mines1_146
+  - first:
+      213: 5456282591837730800
+    second: Set_A_Mines1_147
+  - first:
+      213: 6272062957328667428
+    second: Set_A_Mines1_148
+  - first:
+      213: -659182501684645432
+    second: Set_A_Mines1_149
+  - first:
+      213: 5326411466888871689
+    second: Set_A_Mines1_150
+  - first:
+      213: -8059102783704299208
+    second: Set_A_Mines1_151
+  - first:
+      213: 6552459541454128454
+    second: Set_A_Mines1_152
+  - first:
+      213: -5023608618098383841
+    second: Set_A_Mines1_153
+  - first:
+      213: -1655217946194555741
+    second: Set_A_Mines1_154
+  - first:
+      213: -31114931766929254
+    second: Set_A_Mines1_155
+  - first:
+      213: 5544095790799153556
+    second: Set_A_Mines1_156
+  - first:
+      213: -5134877408428160154
+    second: Set_A_Mines1_157
+  - first:
+      213: 4231224417442566712
+    second: Set_A_Mines1_158
+  - first:
+      213: -7852906035898480091
+    second: Set_A_Mines1_159
+  - first:
+      213: 2733312811507659688
+    second: Set_A_Mines1_160
+  - first:
+      213: 513856742161639358
+    second: Set_A_Mines1_161
+  - first:
+      213: -2088916324271944745
+    second: Set_A_Mines1_162
+  - first:
+      213: -7583351941731989693
+    second: Set_A_Mines1_163
+  - first:
+      213: 7997674350944733453
+    second: Set_A_Mines1_164
+  - first:
+      213: -3976712619517887464
+    second: Set_A_Mines1_165
+  - first:
+      213: -8312197536046973899
+    second: Set_A_Mines1_166
+  - first:
+      213: 308156693003569845
+    second: Set_A_Mines1_167
+  - first:
+      213: -1497660039137026623
+    second: Set_A_Mines1_168
+  - first:
+      213: -1898674607120879506
+    second: Set_A_Mines1_169
+  - first:
+      213: 7081963590868487808
+    second: Set_A_Mines1_170
+  - first:
+      213: 2416621417813670413
+    second: Set_A_Mines1_171
+  - first:
+      213: 526656085007700152
+    second: Set_A_Mines1_172
+  - first:
+      213: -7223789674448187878
+    second: Set_A_Mines1_173
+  - first:
+      213: 4113168270956806876
+    second: Set_A_Mines1_174
+  - first:
+      213: -3989419949484930078
+    second: Set_A_Mines1_175
+  - first:
+      213: -1262534329336436659
+    second: Set_A_Mines1_176
+  - first:
+      213: -2181644491806340881
+    second: Set_A_Mines1_177
+  - first:
+      213: -9033811530580538893
+    second: Set_A_Mines1_178
+  - first:
+      213: 2759701251515914317
+    second: Set_A_Mines1_179
+  - first:
+      213: 5415375652215693010
+    second: Set_A_Mines1_180
+  - first:
+      213: 7437185751078024324
+    second: Set_A_Mines1_181
+  - first:
+      213: 8478361216623881073
+    second: Set_A_Mines1_182
+  - first:
+      213: -3238068756994354240
+    second: Set_A_Mines1_183
+  - first:
+      213: 2494058433439153539
+    second: Set_A_Mines1_184
+  - first:
+      213: -6669696331789032351
+    second: Set_A_Mines1_185
+  - first:
+      213: 5747018996058161818
+    second: Set_A_Mines1_186
+  - first:
+      213: 3615234672715712286
+    second: Set_A_Mines1_187
+  - first:
+      213: -3277689078764815154
+    second: Set_A_Mines1_188
+  - first:
+      213: 3294352328332083067
+    second: Set_A_Mines1_189
+  - first:
+      213: -2301580971539603996
+    second: Set_A_Mines1_190
+  - first:
+      213: 1768396161116950777
+    second: Set_A_Mines1_191
+  - first:
+      213: 67245580396771196
+    second: Set_A_Mines1_192
+  - first:
+      213: 5332420414529607054
+    second: Set_A_Mines1_193
+  - first:
+      213: 8972300940914348376
+    second: Set_A_Mines1_194
+  - first:
+      213: -4993604569859085081
+    second: Set_A_Mines1_195
+  - first:
+      213: -6182175156115043141
+    second: Set_A_Mines1_196
+  - first:
+      213: 6483651489650677613
+    second: Set_A_Mines1_197
+  - first:
+      213: 2085126334077701422
+    second: Set_A_Mines1_198
+  - first:
+      213: 727099833564065617
+    second: Set_A_Mines1_199
+  - first:
+      213: 61324157531833304
+    second: Set_A_Mines1_200
+  - first:
+      213: -9212369550501950086
+    second: Set_A_Mines1_201
+  - first:
+      213: -5596044791936551456
+    second: Set_A_Mines1_202
+  - first:
+      213: 965843434814785319
+    second: Set_A_Mines1_203
+  - first:
+      213: -4250308039203426275
+    second: Set_A_Mines1_204
+  - first:
+      213: 3016465262579610494
+    second: Set_A_Mines1_205
+  - first:
+      213: -8865371803663733564
+    second: Set_A_Mines1_206
+  - first:
+      213: 4553597087861994975
+    second: Set_A_Mines1_207
+  - first:
+      213: 3817736389732065409
+    second: Set_A_Mines1_208
+  - first:
+      213: 413043968795523512
+    second: Set_A_Mines1_209
+  - first:
+      213: 7914792577794911641
+    second: Set_A_Mines1_210
+  - first:
+      213: -504336081478721823
+    second: Set_A_Mines1_211
+  - first:
+      213: 542242235172163402
+    second: Set_A_Mines1_212
+  - first:
+      213: 7456184963225315857
+    second: Set_A_Mines1_213
+  - first:
+      213: -5839830950949898907
+    second: Set_A_Mines1_214
+  - first:
+      213: 4029880965143861773
+    second: Set_A_Mines1_215
+  - first:
+      213: -8883813709446050947
+    second: Set_A_Mines1_216
+  - first:
+      213: 3232331233426430633
+    second: Set_A_Mines1_217
+  - first:
+      213: 5503395272284105318
+    second: Set_A_Mines1_218
+  - first:
+      213: 6920799071787599234
+    second: Set_A_Mines1_219
+  - first:
+      213: -6428180919907992910
+    second: Set_A_Mines1_220
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Set_A_Mines1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e531763eb6d704080a9a7397a99dd2
+      internalID: -5330857187087599215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5bbe1a7eb12a0469008a950fb2ff6f
+      internalID: -2848445346023348079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4c50551fb96d4c97f1102d7de360b
+      internalID: -8702970240341507937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d858737ffbea27c48ab080b3250672b2
+      internalID: 4578327339108203529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fcdcbbd3a54fd4ca8f84000988f249
+      internalID: -4037950738230077169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed1bedbd83b16f42ab3bc775b23f8d1
+      internalID: 4128640478404929385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4a4c1d248ea664dbd450bc9e38bb55
+      internalID: 4016392095105529421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c71083f008b2442b2da961b683ca1d
+      internalID: 7625772116302883928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6637fd56df98d6e45a72f17736e6c3df
+      internalID: 6659497923541046952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536ac5d89ec18ad4f853f4f67ac5e95d
+      internalID: 8764638697350744719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0341a5fbda3a3a64ba47f255daf4887c
+      internalID: 2865163307685799188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36470e89ed163104a98c036120499c51
+      internalID: 765272140689785888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ffca6b597f7164382b199c9ed62d0f
+      internalID: -3885271486080753474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f68bd2bdcbfdd41bb7a59dedb2ac1c
+      internalID: -5978850824859083567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce129183a3f916841ba5246d916c65d0
+      internalID: 6846390427391945711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010c89eb64f93214c8f31c999d057c64
+      internalID: -7956779181370697750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ca2fa0f31167c4fa6136feaaa148a5
+      internalID: 3610847349951578459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1331ebeeed8eeec47bd76be096c7eeea
+      internalID: 6574312658283598827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f305c0aee70924d97a84c0fece97ee
+      internalID: -6493747941240282758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43394b6103385d4f9218ada95c87eed
+      internalID: -5508059923955750765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c1ebe53cbed2b4e82f33499553dba7
+      internalID: -8140758968288919068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9568b6606b569e4980070f1d0ef287f
+      internalID: -7459363121612819340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123bf27b24df52e4ea82c27c083f360b
+      internalID: -4191893829261872557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22b2d49151bc8d44a1ec7f7b6561f40
+      internalID: 3665584661243736728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69eecf27a07759047867c9a612a42747
+      internalID: -6227248937272823431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aa11a91bed1f448a1d308a5b4bf915
+      internalID: -5933424431178314301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9655aa7b1e0cf1244953edac79ce3ed8
+      internalID: -1760760036902119650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ec3902ad9e0d4498a984b05194a9a1
+      internalID: -4884469075213902049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70c01f76d0a4c04f8f399f7d94454c4
+      internalID: 8251612697740712569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339e14ef3f1a70848825b729f3440bc8
+      internalID: -7936522908801103515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f62486b60755c245b7862eb4dff6acf
+      internalID: -1539173728167053820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b753011a2085945b35986ea5378c08
+      internalID: -584754714886632444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10bf6ccb9e63bb4b80e022fbc777bb4
+      internalID: -3843239353869628854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e52ad287b135a4bb917a6e4fa21ea9
+      internalID: 4437687369078993405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58df7e6150a59be4f84b647071fec9ca
+      internalID: 5331364467741112145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d28ab97b7522349b099d117819f01a
+      internalID: -3327796201339909162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8960cc29030f7f4a93fc5e3028a52b5
+      internalID: -1855647805466665873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59abdef6acc579a41b22a468643f56e7
+      internalID: 8274010298365388046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2baee12930a0ee428c3c6788d7f9150
+      internalID: -9085718242017566525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688e0cb0178c3d48bae343542dee002
+      internalID: 444790201280049069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baea509d291bf0543a90634a12db0378
+      internalID: 498834374205337040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da3952d84f58b440a753276e42fd643
+      internalID: -4770698121040638431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954706e067ec39d479d620c887fbd720
+      internalID: -2109728865649402424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a158505e0f429ae40b847501e81e61df
+      internalID: -5413837333106411875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5a9a0d5ca83394fb5ec328d21706b6
+      internalID: -6683470430515213635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d2e055c7d15e0409f14fc4a5c0452d
+      internalID: -7694212962445074277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0b1322327fe0e4383d17d2585a7af5
+      internalID: 8826484401467990965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2602abb692106a44ab19a7b0d8aa4b05
+      internalID: -8020985740133127434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20145d80f34d4f47ba49e90a3b47b60
+      internalID: 2497504494037962069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c666ea8bb3b5444449da7155dfc6e70c
+      internalID: 617373171448768093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55672ca8c094d14c9417c6e4d6e4da1
+      internalID: -1519578694725573005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c783c18205430a4f9dc1a77a5af1842
+      internalID: 4576135782498771150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d61aa8b9e56234bab9a8cc579aa518
+      internalID: -6795978247706107764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe9c9b07472e9645ab695acd2e14a1a
+      internalID: 5446179354815794045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49de5d3754dea274b850cc672baffb5e
+      internalID: -981335120956404467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84b99bd1f82dae4a8802686fa34908e
+      internalID: -5653270188001672483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c92b1676f580c4a824390c7d223a78
+      internalID: -2752585419246853450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e4f3b58aacbe0498df91e57f74fbd2
+      internalID: 8726780676924630049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa009534e6c25d4f81d643a6005e804
+      internalID: 3404670076261045871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dcfcccb3b42a04f952cdd3b2d66681
+      internalID: -238072251407761805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf202cd43093e84fa2722072bd52a12
+      internalID: -3988558383043926838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08859ef8012eced49aee08fd2ebe2f7c
+      internalID: -6045987485753765749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55501adaa38615a448b03da9ff323699
+      internalID: -5022377377421189382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5d18f54f8f59c4898d36e9acad3b42
+      internalID: -1177374944028815584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3073012f03fb1b842952bb6f68892252
+      internalID: 3166580176556202256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45348587c6a2c7d45a348167fcba1a14
+      internalID: -315221166662111122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef5f0a98dfaf5b47b0011c1b8d13c7b
+      internalID: 1406028644846517245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9eeb6e2ba6ddc44a220e677be26833
+      internalID: 2706106330815844149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad1328da945d37439fe72c9b09cb19a
+      internalID: -8740131567328506173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f11d3979d48284f8e899a5c2fc94f2
+      internalID: -7626394571038852461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16429dd15df42549aae739ebffabca4
+      internalID: 412909093878995534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c92ed8b8de1994eb092788aa01b2a6
+      internalID: 5333948131186809712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da06c54ce7e75fe4fb87a4e98f1cd6b0
+      internalID: -4157138418185177706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a522598481544254083f264035a4b832
+      internalID: -4371615936515716796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751614fd93a53694eb1f6cf55504e7a0
+      internalID: 7512086605509865723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c3338adbbb1914c99b02c4cb7dd941
+      internalID: 689168237962275139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80eee28fcf67004086c987276336735
+      internalID: -4477386327105184957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61e1fdb2581ae146931ce5548b886aa
+      internalID: -4598840391584313499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60196f501828ef943a8b1067d9000516
+      internalID: -5279738470011262467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59159a858f9a45e41b55cff6ccf8a88a
+      internalID: 3451155878332921206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b80a5d2963e2b4eb0a6ce84da095e7
+      internalID: 9013308319924150005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b11bc2b0115ad4b941d242399e71c1
+      internalID: -102729375287579955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf4e4c9caec85b4a841a8cc911526c0
+      internalID: -3230993974034240130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1661ebcd789a178488a44fa2b9965d1a
+      internalID: 8210170990189311574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d812dda2a983c284ea51a437556361e5
+      internalID: 3908279990617980603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fd3ffac364b16449b7f6d6cfa89054
+      internalID: -7749994024617398154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff6ef24cc5336e459091a799b64a8db
+      internalID: 1605611962094458098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752e56fd9b6191b4484f3ae050207a7f
+      internalID: 1626179123570796717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4368e25d7ee91b743a2638c34cf3b6db
+      internalID: -8730279337360723716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2729f8bf519e15347ab691af15f70edc
+      internalID: -4157672972968406224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_90
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b238496ab6893934593f153c60e505d0
+      internalID: 3488964098796104251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51146cbe7b7df7340a12fb84a06a7ad6
+      internalID: -6737575635493850205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_92
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ad17e50db0b2549b1e2f8788ef350e
+      internalID: 2759674533472193890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_93
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b3a5d07e9348b47a7b9ae26e4158cd
+      internalID: -4971838139012282608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_94
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1ac24f018d8be49b9e9588437522ee
+      internalID: -7677253172764518785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0293e1140b23b6742bfd6270a961304f
+      internalID: -2258706748786061352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc291b7341a02f468ee872788ff644d
+      internalID: 4821322767305096081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf2e8a5c3d846e4793bd2bdc6faa018
+      internalID: 337931751647054179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_98
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3991058e253201d4a8abfb475b058e4a
+      internalID: -6639039595624098453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041b30a523c042d488cca9576cd0e199
+      internalID: 2527861424261190872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_100
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff94a115f35fa8648b74c404dead4294
+      internalID: -3911664067667868171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_101
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201790c1ee96e05459d734c401e8dcd1
+      internalID: -9067410080569991455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b1cf57a1bafe84cad9ce6d74a393f7
+      internalID: 2887741147277062357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5903d44463f5143ba9d879e09905e7
+      internalID: 1509289361099393488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82212607e9d6c045b4df55d4bc210af
+      internalID: -7257687107306872466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c230ba8ec31c48844a1bcb5c2763a5fd
+      internalID: 1549000609347685105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_106
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e3bc9e2a074cd4e96a164e83d6c66d
+      internalID: -3744506222218425359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff65c36eb48eec44a7248a8cceb3b39
+      internalID: -7846200649547105831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_108
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b67c6f97db3b740971fc4dafaee7ba
+      internalID: -166369906647731261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_109
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da1a2be19c88945b53911e1703e912
+      internalID: 5709973221739568137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_110
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3140e7574168c648821987d7c360a15
+      internalID: 642616288757303980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63765f7a1b555e42b05e820502525eb
+      internalID: 5880833942638918959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_112
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4f2adf0698840409cdf8cf8498a5e6
+      internalID: 4499088148158644940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe6d976086fa244ca26f4190cf0c9da
+      internalID: -1950524515097461818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6423669bb1a76a1479bab7cd612d3cee
+      internalID: -4204196354228883844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5edc6d9b55fa9499959f405ed217d9
+      internalID: 9046065390853880065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12038d1eb6eb1845adef0d811b30383
+      internalID: 6595510332449155923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_117
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5baffc62b7f06549b888690f6d34f9a
+      internalID: 8884002323162416623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_118
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8793b9e78e062cb4ca37b60aeb6ce18d
+      internalID: -6033964521914797181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4bd3fa517172845ab769c82ef805e0
+      internalID: -8069815714590925856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_120
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6cdcb76b9d74a498d00d7e02ad872f
+      internalID: 4684383573421310218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60de29c6475357a45a811a98df202750
+      internalID: -2366069472672884039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_122
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05055d9097a1dad45a08c7705a62fe9a
+      internalID: 2143236652026355734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4643a92ceae60488b1b721831a528d
+      internalID: -6493537978443144806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cbb9fbb0a18964d8fbdcc49319837f
+      internalID: 2027556864940829357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182bd46a5bf6c5a469d2442a598403a0
+      internalID: 7914397989008661383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279ec3a226983244a80500612c6524d6
+      internalID: 3877436745135198293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10eb336fb775ce4abf56f9a8c17923c
+      internalID: -807164368750356743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55c3d6e4a4b8ac45b0059fd6e43df7a
+      internalID: 3642169641346726698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fc70d254993ca4daa5e429dd766f5c
+      internalID: 2407976235382508975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c70ccb1c943855459b28e0d61d4f183
+      internalID: -339026489939095906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbe27e18d1a4ec4094127c0aecb97ba
+      internalID: -1851377811027045518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c904108b14c214dae48b31375b0d3c
+      internalID: -1613058891969553733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77a6e41a9899cd44b7c0ebc325566ba
+      internalID: 4758413892311077347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d3b37eb8d6f4841a56c61a64e89441
+      internalID: 2917044413962304313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037c4a8e2f1e794482f65499ee74e0a
+      internalID: 5226705728758355767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a926f4baf58784489f18e1b5c1b15de
+      internalID: 2464390502411957453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b4baeb45597b649aa47dd2d0020605
+      internalID: -1268141011302853003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_138
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e90c81ec314c40aa02fcf7b4dc624
+      internalID: -2705772858637470653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc677ccf13a62a743b7b2bdfdc37e3a7
+      internalID: -4019518640291050936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_140
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8f34d614b3b6e4db6c81670ecd7bba
+      internalID: 3145284244053902961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331e6a1bf292a1f4ea41dc7c8f586acc
+      internalID: 7975356893893435546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_142
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d7f280fa1ed2142ad24c816dfa9ac4
+      internalID: 4972610097851464178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee41dfb402f8344da007be25908f9af
+      internalID: -8842544947524858100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_144
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8b07ce96aa0234f998dc399bc0663b
+      internalID: 7975047672200163307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d580b3faa60cbac43aa0f4b863be3e3d
+      internalID: -7346152750527553475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_146
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4a0d6a16147ed41a76a94f5b068560
+      internalID: -8352614000562049536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_147
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bde28d02a2b0264a890e9707c0641be
+      internalID: 5456282591837730800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_148
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4e0847387c0d34f8ab71bb0ffb27c0
+      internalID: 6272062957328667428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9992b975c06834d8b3b56bd7b00151
+      internalID: -659182501684645432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df940ecc826a2184f979db25eb420194
+      internalID: 5326411466888871689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b412fa2e62f2743bb85610d1c60445
+      internalID: -8059102783704299208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc79a327b3d0f2f46b3b92ce5cc5ee38
+      internalID: 6552459541454128454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_153
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ba43f30bcbe34b9af1de86c7c168f
+      internalID: -5023608618098383841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_154
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49f3e7153ab62d4db89e95c2e853148
+      internalID: -1655217946194555741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_155
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0b8bfeede16224e8fea5ca61490d9e
+      internalID: -31114931766929254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_156
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4257fab25d93146b2af8a822b1497e
+      internalID: 5544095790799153556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6499e3b23a91c448923910129c11ab
+      internalID: -5134877408428160154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba5adb4c8cf5a4469799bbf1cfc08da
+      internalID: 4231224417442566712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_159
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6e96120ca7f14d9d8aef081dd6b24
+      internalID: -7852906035898480091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8cff9e15c0afd4a8ea502ba1a57788
+      internalID: 2733312811507659688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_161
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c11e0d036e2a06409ea44ccb6a307df
+      internalID: 513856742161639358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430bebbbba14a4545aa759ed3cc8851f
+      internalID: -2088916324271944745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9f2622b0987844484e11a304900758
+      internalID: -7583351941731989693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_164
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1ccb9849400184b8163612ba013db2
+      internalID: 7997674350944733453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_165
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5db795e78594be4e97c16c6c6c22b05
+      internalID: -3976712619517887464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_166
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a34e8317c4e88408c82cd323e21e8b
+      internalID: -8312197536046973899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee8dd87a08f1da4c9fb1d2463daa978
+      internalID: 308156693003569845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_168
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc886331762d146b2ef30df2ff1169
+      internalID: -1497660039137026623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_169
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f37e6e249eb034093150c6e5b6dfd3
+      internalID: -1898674607120879506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_170
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c642c2adc01d4a24690183613d1e0fc4
+      internalID: 7081963590868487808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ef8266b8779a4c8a0086e7cc461f7
+      internalID: 2416621417813670413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_172
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cf4e4944fc6564eaa89681316dc8f6
+      internalID: 526656085007700152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_173
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44ca46f04d46f7498733ff465e4029f
+      internalID: -7223789674448187878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_174
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d50141e235e728498f7f2e7ad3409cd
+      internalID: 4113168270956806876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d4f559bc1719548928e39805fb18d9
+      internalID: -3989419949484930078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1bab2d2744104183363a8fe13c95f
+      internalID: -1262534329336436659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a679855996759d144b282df2bbe5a296
+      internalID: -2181644491806340881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cbb50023b73f84f9489ddb5ca402cf
+      internalID: -9033811530580538893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_179
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed081ea6ec4cf846a9526e7a9f32149
+      internalID: 2759701251515914317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557061c56839fa1478d542b5e0e0c0cf
+      internalID: 5415375652215693010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_181
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d798792ca27244489d90884aff2548
+      internalID: 7437185751078024324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_182
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df331bfc7376e6a4caca053ab11e4252
+      internalID: 8478361216623881073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_183
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26d3b27fbbf6ae43b20bcccf6e2977a
+      internalID: -3238068756994354240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add853e5cd7f1cf4d81b4ddade650f65
+      internalID: 2494058433439153539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_185
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6942054283a51d64e88c4acf468756fc
+      internalID: -6669696331789032351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_186
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b96972180cdc8341b1939e1ececa669
+      internalID: 5747018996058161818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_187
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2a3dc3a1a8ac142be3665b4c9b194e
+      internalID: 3615234672715712286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_188
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c3185e6a5602d4fa74c64cb7623275
+      internalID: -3277689078764815154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df1562d5f4ed7b4daaef420c4db82ea
+      internalID: 3294352328332083067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_190
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dfce4b3fdc1784da828a637bf1ee6b
+      internalID: -2301580971539603996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_191
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748d68cb7d70b2f4a99ba3be167a6a70
+      internalID: 1768396161116950777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_192
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216018eea7d1cdc4bb56fbb3f2153793
+      internalID: 67245580396771196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8386349e85c9ae479cdcaee85524729
+      internalID: 5332420414529607054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_194
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bffa7463d8883e488bb316d1b9213d5
+      internalID: 8972300940914348376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_195
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2e519a4a03b48488bd4f29bc5f021a
+      internalID: -4993604569859085081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e21c80bbbc704409562aa4b1acd0b4
+      internalID: -6182175156115043141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_197
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a5662c68fde944da648990d1593f8f
+      internalID: 6483651489650677613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1395e73ba8f2840972f5cf3b584089
+      internalID: 2085126334077701422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_199
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4918c5457f2c1ad448969578a9bb9888
+      internalID: 727099833564065617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_200
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41bc6e1eac87f49ae5d8ef1e969373
+      internalID: 61324157531833304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec4db4a36f7ca7439bb6ac4ed4775be
+      internalID: -9212369550501950086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_202
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5209b99541c671f4ca01c7eef098be6c
+      internalID: -5596044791936551456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_203
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e771876875831ed4283f22c9d774c08f
+      internalID: 965843434814785319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_204
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365e436c4f373bf4e8e5a840f83faa63
+      internalID: -4250308039203426275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_205
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1defa668d459f428d6bc8a46d86fa1
+      internalID: 3016465262579610494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_206
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a522943619219e14d951327c7851c543
+      internalID: -8865371803663733564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_207
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f253a7e49f89ec409c62695afddee33
+      internalID: 4553597087861994975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_208
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35cc6bd3764f074284eeb2d00a5f5f7
+      internalID: 3817736389732065409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_209
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03b2cb1ee41794288c060181ebf1c9
+      internalID: 413043968795523512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_210
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f98d5489374fb54ebc81f2b02f29c46
+      internalID: 7914792577794911641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_211
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddd8ca0864b94d4997aa7e69b7a550e
+      internalID: -504336081478721823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_212
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af68754e8438f7e42b37bf8281cbbbc5
+      internalID: 542242235172163402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_213
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f89eefeb3e5f84fa410012a2627d01
+      internalID: 7456184963225315857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_214
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8210665e096a3e4f8f4bf953fd3a5f0
+      internalID: -5839830950949898907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_215
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc49a15632225db4c807917fe3ec8110
+      internalID: 4029880965143861773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_216
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7257241d713820a4a84a20886e1e9ee5
+      internalID: -8883813709446050947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_217
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1bcdab35bdf2944b495ae08f3abc80
+      internalID: 3232331233426430633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_218
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95697fefc676aa64e9d07af6c1f640b6
+      internalID: 5503395272284105318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_219
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8f3b13a858c32469e87e1ba05aa2d8
+      internalID: 6920799071787599234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Set_A_Mines1_220
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8523ab578965114f8e6a76a71e559c8
+      internalID: -6428180919907992910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Set_A_Mines1_91: -6737575635493850205
+      Set_A_Mines1_61: -6045987485753765749
+      Set_A_Mines1_196: -6182175156115043141
+      Set_A_Mines1_187: 3615234672715712286
+      Set_A_Mines1_24: -6227248937272823431
+      Set_A_Mines1_111: 5880833942638918959
+      Set_A_Mines1_52: -6795978247706107764
+      Set_A_Mines1_40: 498834374205337040
+      Set_A_Mines1_136: 2464390502411957453
+      Set_A_Mines1_46: 8826484401467990965
+      Set_A_Mines1_142: 4972610097851464178
+      Set_A_Mines1_130: -339026489939095906
+      Set_A_Mines1_150: 5326411466888871689
+      Set_A_Mines1_166: -8312197536046973899
+      Set_A_Mines1_214: -5839830950949898907
+      Set_A_Mines1_4: -4037950738230077169
+      Set_A_Mines1_45: -7694212962445074277
+      Set_A_Mines1_70: 412909093878995534
+      Set_A_Mines1_115: 9046065390853880065
+      Set_A_Mines1_1: -2848445346023348079
+      Set_A_Mines1_15: -7956779181370697750
+      Set_A_Mines1_6: 4016392095105529421
+      Set_A_Mines1_78: -5279738470011262467
+      Set_A_Mines1_71: 5333948131186809712
+      Set_A_Mines1_128: 3642169641346726698
+      Set_A_Mines1_94: -7677253172764518785
+      Set_A_Mines1_121: -2366069472672884039
+      Set_A_Mines1_39: 444790201280049069
+      Set_A_Mines1_86: 1605611962094458098
+      Set_A_Mines1_175: -3989419949484930078
+      Set_A_Mines1_177: -2181644491806340881
+      Set_A_Mines1_44: -6683470430515213635
+      Set_A_Mines1_172: 526656085007700152
+      Set_A_Mines1_178: -9033811530580538893
+      Set_A_Mines1_96: 4821322767305096081
+      Set_A_Mines1_180: 5415375652215693010
+      Set_A_Mines1_220: -6428180919907992910
+      Set_A_Mines1_219: 6920799071787599234
+      Set_A_Mines1_188: -3277689078764815154
+      Set_A_Mines1_103: 1509289361099393488
+      Set_A_Mines1_11: 765272140689785888
+      Set_A_Mines1_125: 7914397989008661383
+      Set_A_Mines1_62: -5022377377421189382
+      Set_A_Mines1_169: -1898674607120879506
+      Set_A_Mines1_66: 1406028644846517245
+      Set_A_Mines1_162: -2088916324271944745
+      Set_A_Mines1_171: 2416621417813670413
+      Set_A_Mines1_186: 5747018996058161818
+      Set_A_Mines1_122: 2143236652026355734
+      Set_A_Mines1_126: 3877436745135198293
+      Set_A_Mines1_55: -5653270188001672483
+      Set_A_Mines1_87: 1626179123570796717
+      Set_A_Mines1_132: -1613058891969553733
+      Set_A_Mines1_116: 6595510332449155923
+      Set_A_Mines1_53: 5446179354815794045
+      Set_A_Mines1_32: -3843239353869628854
+      Set_A_Mines1_119: -8069815714590925856
+      Set_A_Mines1_90: 3488964098796104251
+      Set_A_Mines1_59: -238072251407761805
+      Set_A_Mines1_143: -8842544947524858100
+      Set_A_Mines1_107: -7846200649547105831
+      Set_A_Mines1_168: -1497660039137026623
+      Set_A_Mines1_41: -4770698121040638431
+      Set_A_Mines1_20: -8140758968288919068
+      Set_A_Mines1_104: -7257687107306872466
+      Set_A_Mines1_54: -981335120956404467
+      Set_A_Mines1_8: 6659497923541046952
+      Set_A_Mines1_197: 6483651489650677613
+      Set_A_Mines1_82: -3230993974034240130
+      Set_A_Mines1_202: -5596044791936551456
+      Set_A_Mines1_13: -5978850824859083567
+      Set_A_Mines1_47: -8020985740133127434
+      Set_A_Mines1_193: 5332420414529607054
+      Set_A_Mines1_28: 8251612697740712569
+      Set_A_Mines1_3: 4578327339108203529
+      Set_A_Mines1_10: 2865163307685799188
+      Set_A_Mines1_63: -1177374944028815584
+      Set_A_Mines1_133: 4758413892311077347
+      Set_A_Mines1_110: 642616288757303980
+      Set_A_Mines1_58: 3404670076261045871
+      Set_A_Mines1_189: 3294352328332083067
+      Set_A_Mines1_109: 5709973221739568137
+      Set_A_Mines1_191: 1768396161116950777
+      Set_A_Mines1_33: 4437687369078993405
+      Set_A_Mines1_75: 689168237962275139
+      Set_A_Mines1_65: -315221166662111122
+      Set_A_Mines1_37: 8274010298365388046
+      Set_A_Mines1_97: 337931751647054179
+      Set_A_Mines1_211: -504336081478721823
+      Set_A_Mines1_74: 7512086605509865723
+      Set_A_Mines1_105: 1549000609347685105
+      Set_A_Mines1_101: -9067410080569991455
+      Set_A_Mines1_56: -2752585419246853450
+      Set_A_Mines1_152: 6552459541454128454
+      Set_A_Mines1_215: 4029880965143861773
+      Set_A_Mines1_194: 8972300940914348376
+      Set_A_Mines1_48: 2497504494037962069
+      Set_A_Mines1_139: -4019518640291050936
+      Set_A_Mines1_68: -8740131567328506173
+      Set_A_Mines1_5: 4128640478404929385
+      Set_A_Mines1_81: -102729375287579955
+      Set_A_Mines1_159: -7852906035898480091
+      Set_A_Mines1_72: -4157138418185177706
+      Set_A_Mines1_21: -7459363121612819340
+      Set_A_Mines1_106: -3744506222218425359
+      Set_A_Mines1_88: -8730279337360723716
+      Set_A_Mines1_218: 5503395272284105318
+      Set_A_Mines1_184: 2494058433439153539
+      Set_A_Mines1_206: -8865371803663733564
+      Set_A_Mines1_212: 542242235172163402
+      Set_A_Mines1_93: -4971838139012282608
+      Set_A_Mines1_89: -4157672972968406224
+      Set_A_Mines1_64: 3166580176556202256
+      Set_A_Mines1_154: -1655217946194555741
+      Set_A_Mines1_164: 7997674350944733453
+      Set_A_Mines1_14: 6846390427391945711
+      Set_A_Mines1_19: -5508059923955750765
+      Set_A_Mines1_50: -1519578694725573005
+      Set_A_Mines1_148: 6272062957328667428
+      Set_A_Mines1_95: -2258706748786061352
+      Set_A_Mines1_163: -7583351941731989693
+      Set_A_Mines1_174: 4113168270956806876
+      Set_A_Mines1_123: -6493537978443144806
+      Set_A_Mines1_217: 3232331233426430633
+      Set_A_Mines1_26: -1760760036902119650
+      Set_A_Mines1_51: 4576135782498771150
+      Set_A_Mines1_12: -3885271486080753474
+      Set_A_Mines1_131: -1851377811027045518
+      Set_A_Mines1_170: 7081963590868487808
+      Set_A_Mines1_60: -3988558383043926838
+      Set_A_Mines1_137: -1268141011302853003
+      Set_A_Mines1_190: -2301580971539603996
+      Set_A_Mines1_129: 2407976235382508975
+      Set_A_Mines1_199: 727099833564065617
+      Set_A_Mines1_99: 2527861424261190872
+      Set_A_Mines1_161: 513856742161639358
+      Set_A_Mines1_9: 8764638697350744719
+      Set_A_Mines1_147: 5456282591837730800
+      Set_A_Mines1_84: 3908279990617980603
+      Set_A_Mines1_117: 8884002323162416623
+      Set_A_Mines1_155: -31114931766929254
+      Set_A_Mines1_49: 617373171448768093
+      Set_A_Mines1_195: -4993604569859085081
+      Set_A_Mines1_0: -5330857187087599215
+      Set_A_Mines1_160: 2733312811507659688
+      Set_A_Mines1_34: 5331364467741112145
+      Set_A_Mines1_208: 3817736389732065409
+      Set_A_Mines1_182: 8478361216623881073
+      Set_A_Mines1_22: -4191893829261872557
+      Set_A_Mines1_57: 8726780676924630049
+      Set_A_Mines1_80: 9013308319924150005
+      Set_A_Mines1_145: -7346152750527553475
+      Set_A_Mines1_151: -8059102783704299208
+      Set_A_Mines1_118: -6033964521914797181
+      Set_A_Mines1_156: 5544095790799153556
+      Set_A_Mines1_98: -6639039595624098453
+      Set_A_Mines1_27: -4884469075213902049
+      Set_A_Mines1_25: -5933424431178314301
+      Set_A_Mines1_102: 2887741147277062357
+      Set_A_Mines1_138: -2705772858637470653
+      Set_A_Mines1_165: -3976712619517887464
+      Set_A_Mines1_173: -7223789674448187878
+      Set_A_Mines1_185: -6669696331789032351
+      Set_A_Mines1_31: -584754714886632444
+      Set_A_Mines1_200: 61324157531833304
+      Set_A_Mines1_113: -1950524515097461818
+      Set_A_Mines1_146: -8352614000562049536
+      Set_A_Mines1_135: 5226705728758355767
+      Set_A_Mines1_149: -659182501684645432
+      Set_A_Mines1_77: -4598840391584313499
+      Set_A_Mines1_18: -6493747941240282758
+      Set_A_Mines1_134: 2917044413962304313
+      Set_A_Mines1_183: -3238068756994354240
+      Set_A_Mines1_42: -2109728865649402424
+      Set_A_Mines1_205: 3016465262579610494
+      Set_A_Mines1_181: 7437185751078024324
+      Set_A_Mines1_192: 67245580396771196
+      Set_A_Mines1_127: -807164368750356743
+      Set_A_Mines1_120: 4684383573421310218
+      Set_A_Mines1_167: 308156693003569845
+      Set_A_Mines1_30: -1539173728167053820
+      Set_A_Mines1_7: 7625772116302883928
+      Set_A_Mines1_79: 3451155878332921206
+      Set_A_Mines1_114: -4204196354228883844
+      Set_A_Mines1_144: 7975047672200163307
+      Set_A_Mines1_38: -9085718242017566525
+      Set_A_Mines1_16: 3610847349951578459
+      Set_A_Mines1_23: 3665584661243736728
+      Set_A_Mines1_179: 2759701251515914317
+      Set_A_Mines1_204: -4250308039203426275
+      Set_A_Mines1_35: -3327796201339909162
+      Set_A_Mines1_29: -7936522908801103515
+      Set_A_Mines1_198: 2085126334077701422
+      Set_A_Mines1_17: 6574312658283598827
+      Set_A_Mines1_36: -1855647805466665873
+      Set_A_Mines1_201: -9212369550501950086
+      Set_A_Mines1_140: 3145284244053902961
+      Set_A_Mines1_207: 4553597087861994975
+      Set_A_Mines1_43: -5413837333106411875
+      Set_A_Mines1_67: 2706106330815844149
+      Set_A_Mines1_92: 2759674533472193890
+      Set_A_Mines1_158: 4231224417442566712
+      Set_A_Mines1_209: 413043968795523512
+      Set_A_Mines1_108: -166369906647731261
+      Set_A_Mines1_213: 7456184963225315857
+      Set_A_Mines1_176: -1262534329336436659
+      Set_A_Mines1_203: 965843434814785319
+      Set_A_Mines1_112: 4499088148158644940
+      Set_A_Mines1_69: -7626394571038852461
+      Set_A_Mines1_76: -4477386327105184957
+      Set_A_Mines1_85: -7749994024617398154
+      Set_A_Mines1_2: -8702970240341507937
+      Set_A_Mines1_216: -8883813709446050947
+      Set_A_Mines1_210: 7914792577794911641
+      Set_A_Mines1_153: -5023608618098383841
+      Set_A_Mines1_100: -3911664067667868171
+      Set_A_Mines1_124: 2027556864940829357
+      Set_A_Mines1_73: -4371615936515716796
+      Set_A_Mines1_141: 7975356893893435546
+      Set_A_Mines1_157: -5134877408428160154
+      Set_A_Mines1_83: 8210170990189311574
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
