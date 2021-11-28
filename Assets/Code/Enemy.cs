@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+kusing System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -30,8 +30,7 @@ public class Enemy : MonoBehaviour
         MyHealth = GetComponent<Health>();
 
         // Set random enemy type
-        //type = Random.Range(0, 2);
-        type = 2;
+        type = Random.Range(0, 3);
         if (type == 0 || type == 2)
         {
             MAttackRange = 0.8f;
