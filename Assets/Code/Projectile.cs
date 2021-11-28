@@ -5,6 +5,7 @@ public class Projectile : MonoBehaviour
 {
     public Rigidbody2D MyRigidbody { get; private set; }
     public SpriteRenderer MySpriteRenderer { get; private set; }
+    public ParticleSystem MyParticleSystem { get; private set; }
 
     private SpellParams sp;
     private SpellEffect se;
@@ -18,6 +19,7 @@ public class Projectile : MonoBehaviour
     {
         MyRigidbody = GetComponent<Rigidbody2D>();
         MySpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        MyParticleSystem = GetComponentInChildren<ParticleSystem>();
     }
 
     public void Cast(SpellParams spellParams, SpellEffect spellEffect, Vector2 pos, Vector2 dir)
@@ -36,6 +38,10 @@ public class Projectile : MonoBehaviour
         MyRigidbody.velocity = se.speed * dir;
 
         MySpriteRenderer.color = sp.color;
+        var main = MyParticleSystem.main;
+        main.startColor = sp.color;
+        var emission = MyParticleSystem.emission;
+        emission.rateOverTimeMultiplier *= .1f * spellEffect.PowerMineOnly();
 
         spawnPos = pos;
         spawnDir = dir;
@@ -49,14 +55,6 @@ public class Projectile : MonoBehaviour
         {
             health.Damage(se.damage);
             hit.Add(health);
-
-            var dir = (Vector2) health.transform.position - spawnPos;
-            dir = dir.normalized;
-            foreach (var se2 in se.onHit)
-            {
-                var projectile = Instantiate(sp.projectilePrefab);
-                projectile.Cast(sp, se2, health.transform.position, dir);
-            }
         }
 
         if (!se.pierce || hit.Count >= 2) TryDestroySelf();
@@ -75,7 +73,6 @@ public class Projectile : MonoBehaviour
 
         Destroy(gameObject);
 
-        if (hit.Count != 0) return;
         var dir = (Vector2) transform.position - spawnPos;
         dir += .1f * spawnDir;
         dir = dir.normalized;

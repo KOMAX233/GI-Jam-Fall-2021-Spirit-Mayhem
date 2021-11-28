@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -59,5 +60,10 @@ public class Player : MonoBehaviour
         MyAnimator.SetFloat("vertical", LastNonzeroMoveDirection.y);
         MyAnimator.SetFloat("speed", LastNonzeroMoveDirection.sqrMagnitude);
         MyAnimator.SetBool("attack", allMoves.Exists(m => m is ProjectileMove && m.IsActive));
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

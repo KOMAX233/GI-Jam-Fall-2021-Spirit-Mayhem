@@ -81,13 +81,23 @@ public class SpellEffect
         return s;
     }
 
-    public float Power()
+    public float PowerMineOnly()
     {
-        var power = damage + onHit.Sum(se => se.Power());
+        var power = damage;
         power *= 1 + lifetime * speed / 1000 + (size.x + size.y) / 10f;
         if (pierce) power *= 2;
         if (growOverTime) power *= .5f;
         if (returning) power *= 1.5f;
         return power;
+    }
+
+    public float Power()
+    {
+        var power = damage;
+        power *= 1 + lifetime * speed / 1000 + (size.x + size.y) / 10f;
+        if (pierce) power *= 2;
+        if (growOverTime) power *= .5f;
+        if (returning) power *= 1.5f;
+        return power + onHit.Sum(se => se.Power());
     }
 }
